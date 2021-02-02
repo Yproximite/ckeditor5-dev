@@ -7,7 +7,7 @@
 
 const chalk = require( 'chalk' );
 const serveTranslations = require( './servetranslations' );
-const MultipleLanguageTranslationService = require( '@ckeditor/ckeditor5-dev-utils/lib/translations/multiplelanguagetranslationservice' );
+const MultipleLanguageTranslationService = require( '@yproximite/ckeditor5-dev-utils/lib/translations/multiplelanguagetranslationservice' );
 
 /**
  * CKEditorWebpackPlugin, for now, consists only of the translation mechanism (@ckeditor/ckeditor5#624, @ckeditor/ckeditor5#387,

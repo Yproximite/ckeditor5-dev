@@ -9,7 +9,7 @@
 
 const path = require( 'path' );
 const cwd = process.cwd();
-const { tools } = require( '@ckeditor/ckeditor5-dev-utils' );
+const { tools } = require( '@yproximite/ckeditor5-dev-utils' );
 
 const packageName = require( path.join( cwd, 'package.json' ) ).name;
 

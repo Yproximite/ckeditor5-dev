@@ -55,7 +55,7 @@ describe( 'dev-env/index', () => {
 		mockery.registerMock( './release-tools/tasks/generatechangelogformonorepository', releaseTools.generateChangelogForMonoRepository );
 
 		tasks = proxyquire( '../lib/index', {
-			'@ckeditor/ckeditor5-dev-utils': {
+			'@yproximite/ckeditor5-dev-utils': {
 				logger() {
 					return stubs.logger;
 				}

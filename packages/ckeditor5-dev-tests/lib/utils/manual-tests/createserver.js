@@ -9,7 +9,7 @@ const http = require( 'http' );
 const path = require( 'path' );
 const fs = require( 'fs' );
 const combine = require( 'dom-combiner' );
-const { logger } = require( '@ckeditor/ckeditor5-dev-utils' );
+const { logger } = require( '@yproximite/ckeditor5-dev-utils' );
 const globSync = require( '../glob' );
 
 /**

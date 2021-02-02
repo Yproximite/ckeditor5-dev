@@ -24,7 +24,7 @@ describe( 'dev-env/release-tools/utils', () => {
 		};
 
 		displayCommits = proxyquire( '../../../lib/release-tools/utils/displaycommits', {
-			'@ckeditor/ckeditor5-dev-utils': {
+			'@yproximite/ckeditor5-dev-utils': {
 				logger() {
 					return stubs.logger;
 				}

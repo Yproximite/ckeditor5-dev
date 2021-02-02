@@ -10,7 +10,7 @@ More information about development tools packages can be found at the following 
 First, you need to install the package:
 
 ```bash
-npm i --save-dev @ckeditor/ckeditor5-dev-tests
+npm i --save-dev @yproximite/ckeditor5-dev-tests
 ```
 
 An example npm task to test CKEditor 5 packages (used e.g. in https://github.com/ckeditor/ckeditor5) can look like this:
@@ -52,7 +52,7 @@ You can also use the bin script for testing a package:
 * `files` - Package names, directories or files to tests. Also available as an alias: `-f`.
 * `language` – Specifies a language that will be used while building tests. By default it is `en`.
 * `production` - Run strictest set of checks. E.g. it fails test run when there are [console calls](https://github.com/ckeditor/ckeditor5/issues/1996) or [DOM leaks](https://github.com/ckeditor/ckeditor5/issues/6002).
-* `repositories` (`-r`) - Specifies names of repositories containing packages that should be tested. Those repositories should be cloned into the `external/` directory in the root directory of the project. It's a shortcut of the `--files` option as these repository packages' names will be read by the tool automatically. 
+* `repositories` (`-r`) - Specifies names of repositories containing packages that should be tested. Those repositories should be cloned into the `external/` directory in the root directory of the project. It's a shortcut of the `--files` option as these repository packages' names will be read by the tool automatically.
 * `reporter` - Mocha reporter – either `mocha` (default) or `dots` (less verbose one).
 * `server` - Whether to run the server without opening any browser.
 * `source-map` - Whether to generate the source maps. Also available as an alias: `-s`.

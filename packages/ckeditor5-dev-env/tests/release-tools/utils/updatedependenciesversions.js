@@ -7,7 +7,7 @@
 
 const expect = require( 'chai' ).expect;
 const sinon = require( 'sinon' );
-const { tools } = require( '@ckeditor/ckeditor5-dev-utils' );
+const { tools } = require( '@yproximite/ckeditor5-dev-utils' );
 
 describe( 'dev-env/release-tools/utils', () => {
 	describe( 'updateDependenciesVersions()', () => {

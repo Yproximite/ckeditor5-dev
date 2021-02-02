@@ -8,7 +8,7 @@
 const fs = require( 'fs' );
 const path = require( 'path' );
 const expect = require( 'chai' ).expect;
-const { tools } = require( '@ckeditor/ckeditor5-dev-utils' );
+const { tools } = require( '@yproximite/ckeditor5-dev-utils' );
 
 describe( 'dev-env/release-tools/utils/transform-commit', () => {
 	let tmpCwd, cwd, getChangedFilesForCommit;

@@ -20,7 +20,7 @@ describe( 'removeDir', () => {
 			warnOnUnregistered: false
 		} );
 
-		mockery.registerMock( '@ckeditor/ckeditor5-dev-utils', {
+		mockery.registerMock( '@yproximite/ckeditor5-dev-utils', {
 			logger: () => ( {
 				info( message ) {
 					logMessages.push( message );

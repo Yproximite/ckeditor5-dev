@@ -5,12 +5,12 @@ Changelog
 
 ### Features
 
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: Support for collecting commits from additional mono-repositories in the `generateChangelogForMonoRepository()` function. ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/3d7d5c2654f626e6644da3cd3bc88d5940024a67))
-* **[utils](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-utils)**: Added a module (`builds.getDllPluginWebpackConfig()`) that produces the webpack configuration for DLL. See [ckeditor/ckeditor5#8395](https://github.com/ckeditor/ckeditor5/issues/8395). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/7dad0adc149259d77371f2d6f42ec9213b11f075))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: Support for collecting commits from additional mono-repositories in the `generateChangelogForMonoRepository()` function. ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/3d7d5c2654f626e6644da3cd3bc88d5940024a67))
+* **[utils](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-utils)**: Added a module (`builds.getDllPluginWebpackConfig()`) that produces the webpack configuration for DLL. See [ckeditor/ckeditor5#8395](https://github.com/ckeditor/ckeditor5/issues/8395). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/7dad0adc149259d77371f2d6f42ec9213b11f075))
 
 ### Bug fixes
 
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: The "releaserepositories.js" script should not throw an error if the "options.customReleasesFiles" option is not specified. Closes [ckeditor/ckeditor5#8932](https://github.com/ckeditor/ckeditor5/issues/8932). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/1726e5fb3fba0ef9d3dcdcd966760ce380c9246a))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: The "releaserepositories.js" script should not throw an error if the "options.customReleasesFiles" option is not specified. Closes [ckeditor/ckeditor5#8932](https://github.com/ckeditor/ckeditor5/issues/8932). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/1726e5fb3fba0ef9d3dcdcd966760ce380c9246a))
 
 ### Released packages
 
@@ -21,14 +21,14 @@ Check out the [Versioning policy](https://ckeditor.com/docs/ckeditor5/latest/fra
 
 Releases containing new features:
 
-* [@ckeditor/ckeditor5-dev-env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env): v24.0.2 => v24.1.0
-* [@ckeditor/ckeditor5-dev-utils](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-utils): v24.0.2 => v24.1.0
+* [@yproximite/ckeditor5-dev-env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env): v24.0.2 => v24.1.0
+* [@yproximite/ckeditor5-dev-utils](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-utils): v24.0.2 => v24.1.0
 
 Other releases:
 
-* [@ckeditor/ckeditor5-dev-docs](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-docs): v24.0.2 => v24.1.0
-* [@ckeditor/ckeditor5-dev-tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests): v24.0.2 => v24.1.0
-* [@ckeditor/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-webpack-plugin): v24.0.2 => v24.1.0
+* [@yproximite/ckeditor5-dev-docs](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-docs): v24.0.2 => v24.1.0
+* [@yproximite/ckeditor5-dev-tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests): v24.0.2 => v24.1.0
+* [@yproximite/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-webpack-plugin): v24.0.2 => v24.1.0
 * [@ckeditor/jsdoc-plugins](https://www.npmjs.com/package/@ckeditor/jsdoc-plugins): v24.0.2 => v24.1.0
 </details>
 
@@ -37,7 +37,7 @@ Other releases:
 
 ### Other changes
 
-* **[tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests)**: Minor improvements for the dependency checker that is exposed as a binary script by the `@ckeditor/ckeditor5-dev-tests` package (`ckeditor5-dev-tests-check-dependencies`). Closes https://github.com/ckeditor/ckeditor5/issues/8862. ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/6e27bc78c2ada87c2facc4b9f2efb4ea4b6dd956))
+* **[tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests)**: Minor improvements for the dependency checker that is exposed as a binary script by the `@yproximite/ckeditor5-dev-tests` package (`ckeditor5-dev-tests-check-dependencies`). Closes https://github.com/ckeditor/ckeditor5/issues/8862. ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/6e27bc78c2ada87c2facc4b9f2efb4ea4b6dd956))
 
   - Added a flag `--quiet` that allows display logs only if found issues with dependencies,
   - If packages were not specified in arguments, all packages found in the `packages/` directory will be checked by default.
@@ -51,11 +51,11 @@ Check out the [Versioning policy](https://ckeditor.com/docs/ckeditor5/latest/fra
 
 Other releases:
 
-* [@ckeditor/ckeditor5-dev-docs](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-docs): v24.0.1 => v24.0.2
-* [@ckeditor/ckeditor5-dev-env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env): v24.0.1 => v24.0.2
-* [@ckeditor/ckeditor5-dev-tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests): v24.0.1 => v24.0.2
-* [@ckeditor/ckeditor5-dev-utils](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-utils): v24.0.1 => v24.0.2
-* [@ckeditor/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-webpack-plugin): v24.0.1 => v24.0.2
+* [@yproximite/ckeditor5-dev-docs](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-docs): v24.0.1 => v24.0.2
+* [@yproximite/ckeditor5-dev-env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env): v24.0.1 => v24.0.2
+* [@yproximite/ckeditor5-dev-tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests): v24.0.1 => v24.0.2
+* [@yproximite/ckeditor5-dev-utils](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-utils): v24.0.1 => v24.0.2
+* [@yproximite/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-webpack-plugin): v24.0.1 => v24.0.2
 * [@ckeditor/jsdoc-plugins](https://www.npmjs.com/package/@ckeditor/jsdoc-plugins): v24.0.1 => v24.0.2
 </details>
 
@@ -64,8 +64,8 @@ Other releases:
 
 ### Bug fixes
 
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: Changed packages in the generated changelog will be grouped properly by exact comparing their scopes instead of matching values. Closes [ckeditor/ckeditor5#8596](https://github.com/ckeditor/ckeditor5/issues/8596). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/a825e12b63f122ef048ac347629db75b212bf1ab))
-* **[tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests)**: Improved the dependency checker in detecting missing, unused, or misplaced packages from JS, CSS, and `package.json` files. Closes [ckeditor/ckeditor5#8817](https://github.com/ckeditor/ckeditor5/issues/8817). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/f74fc02260ad60cdaaeacad3333a5613c208fc03))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: Changed packages in the generated changelog will be grouped properly by exact comparing their scopes instead of matching values. Closes [ckeditor/ckeditor5#8596](https://github.com/ckeditor/ckeditor5/issues/8596). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/a825e12b63f122ef048ac347629db75b212bf1ab))
+* **[tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests)**: Improved the dependency checker in detecting missing, unused, or misplaced packages from JS, CSS, and `package.json` files. Closes [ckeditor/ckeditor5#8817](https://github.com/ckeditor/ckeditor5/issues/8817). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/f74fc02260ad60cdaaeacad3333a5613c208fc03))
 
 ### Released packages
 
@@ -76,11 +76,11 @@ Check out the [Versioning policy](https://ckeditor.com/docs/ckeditor5/latest/fra
 
 Other releases:
 
-* [@ckeditor/ckeditor5-dev-docs](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-docs): v24.0.0 => v24.0.1
-* [@ckeditor/ckeditor5-dev-env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env): v24.0.0 => v24.0.1
-* [@ckeditor/ckeditor5-dev-tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests): v24.0.0 => v24.0.1
-* [@ckeditor/ckeditor5-dev-utils](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-utils): v24.0.0 => v24.0.1
-* [@ckeditor/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-webpack-plugin): v24.0.0 => v24.0.1
+* [@yproximite/ckeditor5-dev-docs](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-docs): v24.0.0 => v24.0.1
+* [@yproximite/ckeditor5-dev-env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env): v24.0.0 => v24.0.1
+* [@yproximite/ckeditor5-dev-tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests): v24.0.0 => v24.0.1
+* [@yproximite/ckeditor5-dev-utils](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-utils): v24.0.0 => v24.0.1
+* [@yproximite/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-webpack-plugin): v24.0.0 => v24.0.1
 * [@ckeditor/jsdoc-plugins](https://www.npmjs.com/package/@ckeditor/jsdoc-plugins): v24.0.0 => v24.0.1
 </details>
 
@@ -89,13 +89,13 @@ Other releases:
 
 ### MAJOR BREAKING CHANGES [ℹ️](https://ckeditor.com/docs/ckeditor5/latest/framework/guides/support/versioning-policy.html#major-and-minor-breaking-changes)
 
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: Renamed `options.packageJsonForEmptyReleases` to `options.packageJsonForCustomReleases` in the `releaseSubRepositories()` function.
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: Renamed `options.emptyReleases` to `options.customReleases` in the `releaseSubRepositories()` function.
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: Renamed `options.packageJsonForEmptyReleases` to `options.packageJsonForCustomReleases` in the `releaseSubRepositories()` function.
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: Renamed `options.emptyReleases` to `options.customReleases` in the `releaseSubRepositories()` function.
 
 ### Features
 
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: The idea of having "emptyReleases" has been changed to "customReleases" that allows specifying which files from the original package should be copied. Introduced the `customReleasesFiles` option for the `releaseSubRepositories()` function. It allows specifying glob patterns of files that should be copied to the temporary directory from which the package will be published on npm. Closes [[ckeditor/ckeditor5#8616](https://github.com/ckeditor/ckeditor5/issues/8616)](https://github.com/ckeditor/ckeditor5/issues/8616). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/763e69d95048f006c6048c0014e574bc23246a8b))
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: Added the "--include-external-directory" to the translations:collect task that allows checking packages located in the "external/" directory. See [ckeditor/ckeditor5#7901](https://github.com/ckeditor/ckeditor5/issues/7901). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/2ab50ca526a7d7f45d5fef0167a8d27728b04233))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: The idea of having "emptyReleases" has been changed to "customReleases" that allows specifying which files from the original package should be copied. Introduced the `customReleasesFiles` option for the `releaseSubRepositories()` function. It allows specifying glob patterns of files that should be copied to the temporary directory from which the package will be published on npm. Closes [[ckeditor/ckeditor5#8616](https://github.com/ckeditor/ckeditor5/issues/8616)](https://github.com/ckeditor/ckeditor5/issues/8616). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/763e69d95048f006c6048c0014e574bc23246a8b))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: Added the "--include-external-directory" to the translations:collect task that allows checking packages located in the "external/" directory. See [ckeditor/ckeditor5#7901](https://github.com/ckeditor/ckeditor5/issues/7901). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/2ab50ca526a7d7f45d5fef0167a8d27728b04233))
 
 ### Released packages
 
@@ -106,14 +106,14 @@ Check out the [Versioning policy](https://ckeditor.com/docs/ckeditor5/latest/fra
 
 Major releases (contain major breaking changes):
 
-* [@ckeditor/ckeditor5-dev-env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env): v23.6.1 => v24.0.0
+* [@yproximite/ckeditor5-dev-env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env): v23.6.1 => v24.0.0
 
 Other releases:
 
-* [@ckeditor/ckeditor5-dev-docs](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-docs): v23.6.1 => v24.0.0
-* [@ckeditor/ckeditor5-dev-tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests): v23.6.1 => v24.0.0
-* [@ckeditor/ckeditor5-dev-utils](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-utils): v23.6.1 => v24.0.0
-* [@ckeditor/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-webpack-plugin): v23.6.1 => v24.0.0
+* [@yproximite/ckeditor5-dev-docs](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-docs): v23.6.1 => v24.0.0
+* [@yproximite/ckeditor5-dev-tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests): v23.6.1 => v24.0.0
+* [@yproximite/ckeditor5-dev-utils](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-utils): v23.6.1 => v24.0.0
+* [@yproximite/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-webpack-plugin): v23.6.1 => v24.0.0
 * [@ckeditor/jsdoc-plugins](https://www.npmjs.com/package/@ckeditor/jsdoc-plugins): v23.6.1 => v24.0.0
 </details>
 
@@ -131,11 +131,11 @@ Check out the [Versioning policy](https://ckeditor.com/docs/ckeditor5/latest/fra
 
 Other releases:
 
-* [@ckeditor/ckeditor5-dev-docs](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-docs): v23.6.0 => v23.6.1
-* [@ckeditor/ckeditor5-dev-env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env): v23.6.0 => v23.6.1
-* [@ckeditor/ckeditor5-dev-tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests): v23.6.0 => v23.6.1
-* [@ckeditor/ckeditor5-dev-utils](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-utils): v23.6.0 => v23.6.1
-* [@ckeditor/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-webpack-plugin): v23.6.0 => v23.6.1
+* [@yproximite/ckeditor5-dev-docs](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-docs): v23.6.0 => v23.6.1
+* [@yproximite/ckeditor5-dev-env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env): v23.6.0 => v23.6.1
+* [@yproximite/ckeditor5-dev-tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests): v23.6.0 => v23.6.1
+* [@yproximite/ckeditor5-dev-utils](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-utils): v23.6.0 => v23.6.1
+* [@yproximite/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-webpack-plugin): v23.6.0 => v23.6.1
 * [@ckeditor/jsdoc-plugins](https://www.npmjs.com/package/@ckeditor/jsdoc-plugins): v23.6.0 => v23.6.1
 </details>
 
@@ -144,16 +144,16 @@ Other releases:
 
 ### Features
 
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: `generateChangelogForMonoRepository()` accepts a new option `options.skipLinks` (which is `false` by default) to omit release and commit links in the generated changelog. Closes [ckeditor/ckeditor5#8167](https://github.com/ckeditor/ckeditor5/issues/8167). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/4ef99ed3b8cb5e77adec58cd9943a19a99fda70b))
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: `generateChangelogForSinglePackage()` accept an optional option: `options.releaseBranch` (which defaults to `master`). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/9c25333d283105853902a16c87b3f2cee655c130))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: `generateChangelogForMonoRepository()` accepts a new option `options.skipLinks` (which is `false` by default) to omit release and commit links in the generated changelog. Closes [ckeditor/ckeditor5#8167](https://github.com/ckeditor/ckeditor5/issues/8167). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/4ef99ed3b8cb5e77adec58cd9943a19a99fda70b))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: `generateChangelogForSinglePackage()` accept an optional option: `options.releaseBranch` (which defaults to `master`). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/9c25333d283105853902a16c87b3f2cee655c130))
 
 ### Bug fixes
 
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: The `getNewVersionType()` util returns a proper version when generating the changelog for a single package. Closes [ckeditor/ckeditor5#8265](https://github.com/ckeditor/ckeditor5/issues/8265). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/9c25333d283105853902a16c87b3f2cee655c130))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: The `getNewVersionType()` util returns a proper version when generating the changelog for a single package. Closes [ckeditor/ckeditor5#8265](https://github.com/ckeditor/ckeditor5/issues/8265). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/9c25333d283105853902a16c87b3f2cee655c130))
 
 ### Other changes
 
-* **[tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests)**: Improved linter error message for self-imports. Closes [ckeditor/ckeditor5#8245](https://github.com/ckeditor/ckeditor5/issues/8245). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/bbb54952335415fe8fded20e4926b024e34c7bd7))
+* **[tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests)**: Improved linter error message for self-imports. Closes [ckeditor/ckeditor5#8245](https://github.com/ckeditor/ckeditor5/issues/8245). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/bbb54952335415fe8fded20e4926b024e34c7bd7))
 
 ### Released packages
 
@@ -164,14 +164,14 @@ Check out the [Versioning policy](https://ckeditor.com/docs/ckeditor5/latest/fra
 
 Releases containing new features:
 
-* [@ckeditor/ckeditor5-dev-env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env): v23.5.1 => v23.6.0
+* [@yproximite/ckeditor5-dev-env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env): v23.5.1 => v23.6.0
 
 Other releases:
 
-* [@ckeditor/ckeditor5-dev-docs](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-docs): v23.5.1 => v23.6.0
-* [@ckeditor/ckeditor5-dev-tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests): v23.5.1 => v23.6.0
-* [@ckeditor/ckeditor5-dev-utils](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-utils): v23.5.1 => v23.6.0
-* [@ckeditor/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-webpack-plugin): v23.5.1 => v23.6.0
+* [@yproximite/ckeditor5-dev-docs](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-docs): v23.5.1 => v23.6.0
+* [@yproximite/ckeditor5-dev-tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests): v23.5.1 => v23.6.0
+* [@yproximite/ckeditor5-dev-utils](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-utils): v23.5.1 => v23.6.0
+* [@yproximite/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-webpack-plugin): v23.5.1 => v23.6.0
 * [@ckeditor/jsdoc-plugins](https://www.npmjs.com/package/@ckeditor/jsdoc-plugins): v23.5.1 => v23.6.0
 </details>
 
@@ -180,7 +180,7 @@ Other releases:
 
 ### Other changes
 
-* **[tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests)**: Builds triggered by "api" should be handled by the script that sends notifications to Slack. Closes [ckeditor/ckeditor5#8025](https://github.com/ckeditor/ckeditor5/issues/8025). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/7c053269563fb6ab6546381abd8ceb785ab9313f))
+* **[tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests)**: Builds triggered by "api" should be handled by the script that sends notifications to Slack. Closes [ckeditor/ckeditor5#8025](https://github.com/ckeditor/ckeditor5/issues/8025). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/7c053269563fb6ab6546381abd8ceb785ab9313f))
 
 ### Released packages
 
@@ -191,11 +191,11 @@ Check out the [Versioning policy](https://ckeditor.com/docs/ckeditor5/latest/fra
 
 Other releases:
 
-* [@ckeditor/ckeditor5-dev-docs](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-docs): v23.5.0 => v23.5.1
-* [@ckeditor/ckeditor5-dev-env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env): v23.5.0 => v23.5.1
-* [@ckeditor/ckeditor5-dev-tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests): v23.5.0 => v23.5.1
-* [@ckeditor/ckeditor5-dev-utils](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-utils): v23.5.0 => v23.5.1
-* [@ckeditor/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-webpack-plugin): v23.5.0 => v23.5.1
+* [@yproximite/ckeditor5-dev-docs](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-docs): v23.5.0 => v23.5.1
+* [@yproximite/ckeditor5-dev-env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env): v23.5.0 => v23.5.1
+* [@yproximite/ckeditor5-dev-tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests): v23.5.0 => v23.5.1
+* [@yproximite/ckeditor5-dev-utils](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-utils): v23.5.0 => v23.5.1
+* [@yproximite/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-webpack-plugin): v23.5.0 => v23.5.1
 * [@ckeditor/jsdoc-plugins](https://www.npmjs.com/package/@ckeditor/jsdoc-plugins): v23.5.0 => v23.5.1
 </details>
 
@@ -204,7 +204,7 @@ Other releases:
 
 ### Features
 
-* **[docs](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-docs)**: Added an option to make strict check while building the documentation. See [ckeditor/ckeditor5#7994](https://github.com/ckeditor/ckeditor5/issues/7994). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/759cad55ff9a837b74ec6afdcc5a349cdefb85ff))
+* **[docs](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-docs)**: Added an option to make strict check while building the documentation. See [ckeditor/ckeditor5#7994](https://github.com/ckeditor/ckeditor5/issues/7994). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/759cad55ff9a837b74ec6afdcc5a349cdefb85ff))
 
 ### Released packages
 
@@ -215,15 +215,15 @@ Check out the [Versioning policy](https://ckeditor.com/docs/ckeditor5/latest/fra
 
 Releases containing new features:
 
-* [@ckeditor/ckeditor5-dev-docs](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-docs): v23.4.0 => v23.5.0
+* [@yproximite/ckeditor5-dev-docs](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-docs): v23.4.0 => v23.5.0
 * [@ckeditor/jsdoc-plugins](https://www.npmjs.com/package/@ckeditor/jsdoc-plugins): v23.4.0 => v23.5.0
 
 Other releases:
 
-* [@ckeditor/ckeditor5-dev-env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env): v23.4.0 => v23.5.0
-* [@ckeditor/ckeditor5-dev-tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests): v23.4.0 => v23.5.0
-* [@ckeditor/ckeditor5-dev-utils](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-utils): v23.4.0 => v23.5.0
-* [@ckeditor/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-webpack-plugin): v23.4.0 => v23.5.0
+* [@yproximite/ckeditor5-dev-env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env): v23.4.0 => v23.5.0
+* [@yproximite/ckeditor5-dev-tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests): v23.4.0 => v23.5.0
+* [@yproximite/ckeditor5-dev-utils](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-utils): v23.4.0 => v23.5.0
+* [@yproximite/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-webpack-plugin): v23.4.0 => v23.5.0
 </details>
 
 
@@ -231,7 +231,7 @@ Other releases:
 
 ### Features
 
-* **[tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests)**: Introduced the `--repositories` (also known as `-r`) option that allows specifying a name of a repository (or repositories, separated by a comma, similar to the `--files` option) where the tool should look for packages that should be tested. Thanks to that, you do not have to specify all packages of a repository that was cloned into the `external/` directory. Closes [ckeditor/ckeditor5#7889](https://github.com/ckeditor/ckeditor5/issues/7889). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/1e8edca9f77b8435d5a2b210c5fa9d7a7ab8c11c))
+* **[tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests)**: Introduced the `--repositories` (also known as `-r`) option that allows specifying a name of a repository (or repositories, separated by a comma, similar to the `--files` option) where the tool should look for packages that should be tested. Thanks to that, you do not have to specify all packages of a repository that was cloned into the `external/` directory. Closes [ckeditor/ckeditor5#7889](https://github.com/ckeditor/ckeditor5/issues/7889). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/1e8edca9f77b8435d5a2b210c5fa9d7a7ab8c11c))
 
 ### Released packages
 
@@ -242,14 +242,14 @@ Check out the [Versioning policy](https://ckeditor.com/docs/ckeditor5/latest/fra
 
 Releases containing new features:
 
-* [@ckeditor/ckeditor5-dev-tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests): v23.3.0 => v23.4.0
+* [@yproximite/ckeditor5-dev-tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests): v23.3.0 => v23.4.0
 
 Other releases:
 
-* [@ckeditor/ckeditor5-dev-docs](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-docs): v23.3.0 => v23.4.0
-* [@ckeditor/ckeditor5-dev-env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env): v23.3.0 => v23.4.0
-* [@ckeditor/ckeditor5-dev-utils](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-utils): v23.3.0 => v23.4.0
-* [@ckeditor/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-webpack-plugin): v23.3.0 => v23.4.0
+* [@yproximite/ckeditor5-dev-docs](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-docs): v23.3.0 => v23.4.0
+* [@yproximite/ckeditor5-dev-env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env): v23.3.0 => v23.4.0
+* [@yproximite/ckeditor5-dev-utils](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-utils): v23.3.0 => v23.4.0
+* [@yproximite/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-webpack-plugin): v23.3.0 => v23.4.0
 * [@ckeditor/jsdoc-plugins](https://www.npmjs.com/package/@ckeditor/jsdoc-plugins): v23.3.0 => v23.4.0
 </details>
 
@@ -258,11 +258,11 @@ Other releases:
 
 ### Features
 
-* **[tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests)**: Implemented the toggle button for the manual tests sidebar. Closes [ckeditor/ckeditor5#7962](https://github.com/ckeditor/ckeditor5/issues/7962). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/e21464545ba78968dea804a52f8eea3852a51b33))
+* **[tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests)**: Implemented the toggle button for the manual tests sidebar. Closes [ckeditor/ckeditor5#7962](https://github.com/ckeditor/ckeditor5/issues/7962). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/e21464545ba78968dea804a52f8eea3852a51b33))
 
 ### Other changes
 
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: The changelog generator now produces a commented out blog post placeholder by default. Closes [ckeditor/ckeditor5#7954](https://github.com/ckeditor/ckeditor5/issues/7954). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/8ce5f25f38c3eaad903b74306b7739794e27e940))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: The changelog generator now produces a commented out blog post placeholder by default. Closes [ckeditor/ckeditor5#7954](https://github.com/ckeditor/ckeditor5/issues/7954). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/8ce5f25f38c3eaad903b74306b7739794e27e940))
 
 ### Released packages
 
@@ -273,14 +273,14 @@ Check out the [Versioning policy](https://ckeditor.com/docs/ckeditor5/latest/fra
 
 Releases containing new features:
 
-* [@ckeditor/ckeditor5-dev-tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests): v23.2.0 => v23.3.0
+* [@yproximite/ckeditor5-dev-tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests): v23.2.0 => v23.3.0
 
 Other releases:
 
-* [@ckeditor/ckeditor5-dev-docs](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-docs): v23.2.0 => v23.3.0
-* [@ckeditor/ckeditor5-dev-env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env): v23.2.0 => v23.3.0
-* [@ckeditor/ckeditor5-dev-utils](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-utils): v23.2.0 => v23.3.0
-* [@ckeditor/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-webpack-plugin): v23.2.0 => v23.3.0
+* [@yproximite/ckeditor5-dev-docs](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-docs): v23.2.0 => v23.3.0
+* [@yproximite/ckeditor5-dev-env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env): v23.2.0 => v23.3.0
+* [@yproximite/ckeditor5-dev-utils](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-utils): v23.2.0 => v23.3.0
+* [@yproximite/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-webpack-plugin): v23.2.0 => v23.3.0
 * [@ckeditor/jsdoc-plugins](https://www.npmjs.com/package/@ckeditor/jsdoc-plugins): v23.2.0 => v23.3.0
 </details>
 
@@ -289,13 +289,13 @@ Other releases:
 
 ### Features
 
-* **[jsdoc-plugins](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-jsdoc-plugins)**: Introduced a plugin that hides the package documentation if in the package's `package.json` file the `private` key is set to `true`. However, by adding the `@publicApi` annotation, you can mark blocks of the code that should not be hidden. ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/374efa83b258e40b36a6451a288e494582f8c5ac))
-* **[tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests)**: Manual test server accepts a new flag: `--identity-file` (alias: `-i`) that allows defining global constants in manual tests. ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/374efa83b258e40b36a6451a288e494582f8c5ac))
+* **[jsdoc-plugins](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-jsdoc-plugins)**: Introduced a plugin that hides the package documentation if in the package's `package.json` file the `private` key is set to `true`. However, by adding the `@publicApi` annotation, you can mark blocks of the code that should not be hidden. ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/374efa83b258e40b36a6451a288e494582f8c5ac))
+* **[tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests)**: Manual test server accepts a new flag: `--identity-file` (alias: `-i`) that allows defining global constants in manual tests. ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/374efa83b258e40b36a6451a288e494582f8c5ac))
 
 ### Other changes
 
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: Improved output displayed while the `translations.upload()` function is working. Instead of displaying `console.log()` after each package, summary tables will be displayed when the function finishes its job. ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/fb88a3ed7450c148debbd4bdc5e2a1fbbd82b1f8))
-* **[tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests)**: Manual test script will not search for tests in the `./manual/_utils` directory. If any of a manual test requires additional utils to work, those can be placed in the `_utils` directory. ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/374efa83b258e40b36a6451a288e494582f8c5ac))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: Improved output displayed while the `translations.upload()` function is working. Instead of displaying `console.log()` after each package, summary tables will be displayed when the function finishes its job. ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/fb88a3ed7450c148debbd4bdc5e2a1fbbd82b1f8))
+* **[tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests)**: Manual test script will not search for tests in the `./manual/_utils` directory. If any of a manual test requires additional utils to work, those can be placed in the `_utils` directory. ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/374efa83b258e40b36a6451a288e494582f8c5ac))
 
 ### Released packages
 
@@ -306,15 +306,15 @@ Check out the [Versioning policy](https://ckeditor.com/docs/ckeditor5/latest/fra
 
 Releases containing new features:
 
-* [@ckeditor/ckeditor5-dev-docs](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-docs): v23.1.1 => v23.2.0
-* [@ckeditor/ckeditor5-dev-tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests): v23.1.1 => v23.2.0
+* [@yproximite/ckeditor5-dev-docs](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-docs): v23.1.1 => v23.2.0
+* [@yproximite/ckeditor5-dev-tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests): v23.1.1 => v23.2.0
 * [@ckeditor/jsdoc-plugins](https://www.npmjs.com/package/@ckeditor/jsdoc-plugins): v23.1.1 => v23.2.0
 
 Other releases:
 
-* [@ckeditor/ckeditor5-dev-env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env): v23.1.1 => v23.2.0
-* [@ckeditor/ckeditor5-dev-utils](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-utils): v23.1.1 => v23.2.0
-* [@ckeditor/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-webpack-plugin): v23.1.1 => v23.2.0
+* [@yproximite/ckeditor5-dev-env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env): v23.1.1 => v23.2.0
+* [@yproximite/ckeditor5-dev-utils](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-utils): v23.1.1 => v23.2.0
+* [@yproximite/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-webpack-plugin): v23.1.1 => v23.2.0
 </details>
 
 
@@ -331,11 +331,11 @@ Check out the [Versioning policy](https://ckeditor.com/docs/ckeditor5/latest/fra
 
 Other releases:
 
-* [@ckeditor/ckeditor5-dev-docs](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-docs): v23.1.0 => v23.1.1
-* [@ckeditor/ckeditor5-dev-env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env): v23.1.0 => v23.1.1
-* [@ckeditor/ckeditor5-dev-tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests): v23.1.0 => v23.1.1
-* [@ckeditor/ckeditor5-dev-utils](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-utils): v23.1.0 => v23.1.1
-* [@ckeditor/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-webpack-plugin): v23.1.0 => v23.1.1
+* [@yproximite/ckeditor5-dev-docs](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-docs): v23.1.0 => v23.1.1
+* [@yproximite/ckeditor5-dev-env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env): v23.1.0 => v23.1.1
+* [@yproximite/ckeditor5-dev-tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests): v23.1.0 => v23.1.1
+* [@yproximite/ckeditor5-dev-utils](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-utils): v23.1.0 => v23.1.1
+* [@yproximite/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-webpack-plugin): v23.1.0 => v23.1.1
 * [@ckeditor/jsdoc-plugins](https://www.npmjs.com/package/@ckeditor/jsdoc-plugins): v23.1.0 => v23.1.1
 </details>
 
@@ -344,12 +344,12 @@ Other releases:
 
 ### Features
 
-* **[tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests)**: Dependency checker will look for duplicated dependencies. Closes [ckeditor/ckeditor5#7706](https://github.com/ckeditor/ckeditor5/issues/7706). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/29ecdb282fe0acb9c993cd2d59643f5116ad59bb))
-* **[webpack-plugin](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-webpack-plugin)**: Add support for the `translationsOutputFile` option for `CKEditorWebpackPlugin` allowing specifying the target bundle for translations. Closes [ckeditor/ckeditor5#7688](https://github.com/ckeditor/ckeditor5/issues/7688). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/f385e09f0be5bc5bb40fee8af68006760bb07e2c))
+* **[tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests)**: Dependency checker will look for duplicated dependencies. Closes [ckeditor/ckeditor5#7706](https://github.com/ckeditor/ckeditor5/issues/7706). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/29ecdb282fe0acb9c993cd2d59643f5116ad59bb))
+* **[webpack-plugin](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-webpack-plugin)**: Add support for the `translationsOutputFile` option for `CKEditorWebpackPlugin` allowing specifying the target bundle for translations. Closes [ckeditor/ckeditor5#7688](https://github.com/ckeditor/ckeditor5/issues/7688). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/f385e09f0be5bc5bb40fee8af68006760bb07e2c))
 
 ### Bug fixes
 
-* **[jsdoc-plugins](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-jsdoc-plugins)**: Whitespaces from code blocks should be removed properly. Closes [ckeditor/ckeditor5#7742](https://github.com/ckeditor/ckeditor5/issues/7742). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/71a1637474ff4d9451fa76a24be6472514601497))
+* **[jsdoc-plugins](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-jsdoc-plugins)**: Whitespaces from code blocks should be removed properly. Closes [ckeditor/ckeditor5#7742](https://github.com/ckeditor/ckeditor5/issues/7742). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/71a1637474ff4d9451fa76a24be6472514601497))
 
 ### Released packages
 
@@ -360,15 +360,15 @@ Check out the [Versioning policy](https://ckeditor.com/docs/ckeditor5/latest/fra
 
 Releases containing new features:
 
-* [@ckeditor/ckeditor5-dev-env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env): v23.0.0 => v23.1.0
-* [@ckeditor/ckeditor5-dev-tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests): v23.0.0 => v23.1.0
-* [@ckeditor/ckeditor5-dev-utils](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-utils): v23.0.0 => v23.1.0
-* [@ckeditor/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-webpack-plugin): v23.0.0 => v23.1.0
+* [@yproximite/ckeditor5-dev-env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env): v23.0.0 => v23.1.0
+* [@yproximite/ckeditor5-dev-tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests): v23.0.0 => v23.1.0
+* [@yproximite/ckeditor5-dev-utils](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-utils): v23.0.0 => v23.1.0
+* [@yproximite/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-webpack-plugin): v23.0.0 => v23.1.0
 * [@ckeditor/jsdoc-plugins](https://www.npmjs.com/package/@ckeditor/jsdoc-plugins): v23.0.0 => v23.1.0
 
 Other releases:
 
-* [@ckeditor/ckeditor5-dev-docs](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-docs): v23.0.0 => v23.1.0
+* [@yproximite/ckeditor5-dev-docs](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-docs): v23.0.0 => v23.1.0
 </details>
 
 
@@ -376,11 +376,11 @@ Other releases:
 
 ### MAJOR BREAKING CHANGES [ℹ️](https://ckeditor.com/docs/ckeditor5/latest/framework/guides/support/versioning-policy.html#major-and-minor-breaking-changes)
 
-* **[jsdoc-plugins](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-jsdoc-plugins)**: Functions documented in a module will no longer be documented as static functions. Therefore links to functions will not contain the `static-` part and links created in the past will no longer work.
+* **[jsdoc-plugins](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-jsdoc-plugins)**: Functions documented in a module will no longer be documented as static functions. Therefore links to functions will not contain the `static-` part and links created in the past will no longer work.
 
 ### Features
 
-* **[jsdoc-plugins](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-jsdoc-plugins)**: Updated JSDoc and align custom JSDoc plugins. Part of [ckeditor/ckeditor5#7575](https://github.com/ckeditor/ckeditor5/issues/7575). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/755e29cde71f67332554cb4bc0c23982651bb524))
+* **[jsdoc-plugins](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-jsdoc-plugins)**: Updated JSDoc and align custom JSDoc plugins. Part of [ckeditor/ckeditor5#7575](https://github.com/ckeditor/ckeditor5/issues/7575). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/755e29cde71f67332554cb4bc0c23982651bb524))
 
   * Improved performance,
   * Fixed incorrectly and inconsistently documented functions. Previously they were marked as static/instance using the `.` or `#` symbols. Now they are documented the same as classes, interfaces, and mixins using the `~` symbol. (e.g. `module:widget/utils~toWidget`),
@@ -400,11 +400,11 @@ Major releases (contain major breaking changes):
 
 Other releases:
 
-* [@ckeditor/ckeditor5-dev-docs](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-docs): v22.0.0 => v23.0.0
-* [@ckeditor/ckeditor5-dev-env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env): v22.0.0 => v23.0.0
-* [@ckeditor/ckeditor5-dev-tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests): v22.0.0 => v23.0.0
-* [@ckeditor/ckeditor5-dev-utils](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-utils): v22.0.0 => v23.0.0
-* [@ckeditor/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-webpack-plugin): v22.0.0 => v23.0.0
+* [@yproximite/ckeditor5-dev-docs](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-docs): v22.0.0 => v23.0.0
+* [@yproximite/ckeditor5-dev-env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env): v22.0.0 => v23.0.0
+* [@yproximite/ckeditor5-dev-tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests): v22.0.0 => v23.0.0
+* [@yproximite/ckeditor5-dev-utils](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-utils): v22.0.0 => v23.0.0
+* [@yproximite/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-webpack-plugin): v22.0.0 => v23.0.0
 </details>
 
 
@@ -412,23 +412,23 @@ Other releases:
 
 ### MAJOR BREAKING CHANGES [ℹ️](https://ckeditor.com/docs/ckeditor5/latest/framework/guides/support/versioning-policy.html#major-and-minor-breaking-changes)
 
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: Task `generateChangelogForMonoRepository()` will generate the changelog uses the same version for all packages.
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: Task `generateChangelogForMonoRepository()` will generate the changelog uses the same version for all packages.
 
 ### Features
 
-* **[tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests)**: Added `sinon-chai` to automated tests. Closes https://github.com/ckeditor/ckeditor5/issues/7456. ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/e82040e6a17e87bae6b450df29e5ac7084b5e5be))
+* **[tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests)**: Added `sinon-chai` to automated tests. Closes https://github.com/ckeditor/ckeditor5/issues/7456. ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/e82040e6a17e87bae6b450df29e5ac7084b5e5be))
 
 ### Bug fixes
 
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: The `getCommit()` util will return a proper array with commits if the release branch in the project is other than `master`. Due to `--first-parent` flag which is used for collecting the commits, when the release branch is other than `master`, commits made on `master` could not be collected directly from the branch. Now those commits are collected in two ranges: from the last tag to the [base commit](https://git-scm.com/docs/git-merge-base) and from the base commit to HEAD and merged together. Closes [ckeditor/ckeditor5#7492](https://github.com/ckeditor/ckeditor5/issues/7492). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/e18db62d33c11dbe2a98a845e46cbde73186fa9d))
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: Scoped breaking changes notes won't be duplicated in the changelog. Closes [ckeditor/ckeditor5#7495](https://github.com/ckeditor/ckeditor5/issues/7495). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/e4eefa669bce9a8d1ccca6ce1c92914a17151825))
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: Commit and note groups should be sorted properly. Closes [ckeditor/ckeditor5#7496](https://github.com/ckeditor/ckeditor5/issues/7496). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/a08020cbb29bf62cabc28a71926278abe32f54bf))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: The `getCommit()` util will return a proper array with commits if the release branch in the project is other than `master`. Due to `--first-parent` flag which is used for collecting the commits, when the release branch is other than `master`, commits made on `master` could not be collected directly from the branch. Now those commits are collected in two ranges: from the last tag to the [base commit](https://git-scm.com/docs/git-merge-base) and from the base commit to HEAD and merged together. Closes [ckeditor/ckeditor5#7492](https://github.com/ckeditor/ckeditor5/issues/7492). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/e18db62d33c11dbe2a98a845e46cbde73186fa9d))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: Scoped breaking changes notes won't be duplicated in the changelog. Closes [ckeditor/ckeditor5#7495](https://github.com/ckeditor/ckeditor5/issues/7495). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/e4eefa669bce9a8d1ccca6ce1c92914a17151825))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: Commit and note groups should be sorted properly. Closes [ckeditor/ckeditor5#7496](https://github.com/ckeditor/ckeditor5/issues/7496). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/a08020cbb29bf62cabc28a71926278abe32f54bf))
 
 ### Other changes
 
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: The `generateChangelogForMonoRepository()` task supports `options.releaseBranch` that is passed directly to the `getCommit()` util. See [ckeditor/ckeditor5#7492](https://github.com/ckeditor/ckeditor5/issues/7492). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/e18db62d33c11dbe2a98a845e46cbde73186fa9d))
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: The changelog generator for mono repository will use the same version for all packages. On the screen, a user will see all changes: `MAJOR BREAKING CHANGES`, `MINOR BREAKING CHANGES`, and all commits since the last release. The user must review it and provide the version. Closes [ckeditor/ckeditor5#7323](https://github.com/ckeditor/ckeditor5/issues/7323). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/4036b6e359238db764be695f7491e7e3e85901bd))
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: Merge commits between `stable/release/master` branches will be ignored when generating the changelog, to reduce the noise. Closes [ckeditor/ckeditor5#7489](https://github.com/ckeditor/ckeditor5/issues/7489). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/cedc53f350aef74621f80f8a2e953d18892f5c52))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: The `generateChangelogForMonoRepository()` task supports `options.releaseBranch` that is passed directly to the `getCommit()` util. See [ckeditor/ckeditor5#7492](https://github.com/ckeditor/ckeditor5/issues/7492). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/e18db62d33c11dbe2a98a845e46cbde73186fa9d))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: The changelog generator for mono repository will use the same version for all packages. On the screen, a user will see all changes: `MAJOR BREAKING CHANGES`, `MINOR BREAKING CHANGES`, and all commits since the last release. The user must review it and provide the version. Closes [ckeditor/ckeditor5#7323](https://github.com/ckeditor/ckeditor5/issues/7323). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/4036b6e359238db764be695f7491e7e3e85901bd))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: Merge commits between `stable/release/master` branches will be ignored when generating the changelog, to reduce the noise. Closes [ckeditor/ckeditor5#7489](https://github.com/ckeditor/ckeditor5/issues/7489). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/cedc53f350aef74621f80f8a2e953d18892f5c52))
 
 ### Released packages
 
@@ -439,17 +439,17 @@ Check out the [Versioning policy](https://ckeditor.com/docs/ckeditor5/latest/fra
 
 Major releases (contain major breaking changes):
 
-* [@ckeditor/ckeditor5-dev-env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env): v21.0.0 => v22.0.0
+* [@yproximite/ckeditor5-dev-env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env): v21.0.0 => v22.0.0
 
 Releases containing new features:
 
-* [@ckeditor/ckeditor5-dev-tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests): v21.0.0 => v22.0.0
+* [@yproximite/ckeditor5-dev-tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests): v21.0.0 => v22.0.0
 
 Other releases:
 
-* [@ckeditor/ckeditor5-dev-docs](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-docs): v21.0.0 => v22.0.0
-* [@ckeditor/ckeditor5-dev-utils](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-utils): v21.0.0 => v22.0.0
-* [@ckeditor/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-webpack-plugin): v21.0.0 => v22.0.0
+* [@yproximite/ckeditor5-dev-docs](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-docs): v21.0.0 => v22.0.0
+* [@yproximite/ckeditor5-dev-utils](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-utils): v21.0.0 => v22.0.0
+* [@yproximite/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-webpack-plugin): v21.0.0 => v22.0.0
 * [@ckeditor/jsdoc-plugins](https://www.npmjs.com/package/@ckeditor/jsdoc-plugins): v21.0.0 => v22.0.0
 </details>
 
@@ -462,7 +462,7 @@ Other releases:
 
 ### Features
 
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: Translation tools can handle external packages outside the CKEditor 5 repository. Closes [ckeditor/ckeditor5#6635](https://github.com/ckeditor/ckeditor5/issues/6635). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/5771fc51e716754babcb89e37dbb13bfbf832118))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: Translation tools can handle external packages outside the CKEditor 5 repository. Closes [ckeditor/ckeditor5#6635](https://github.com/ckeditor/ckeditor5/issues/6635). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/5771fc51e716754babcb89e37dbb13bfbf832118))
 
 ### Bug fixes
 
@@ -481,11 +481,11 @@ Check out the [Versioning policy](https://ckeditor.com/docs/ckeditor5/latest/fra
 
 Major releases (contain major breaking changes):
 
-* [@ckeditor/ckeditor5-dev-docs](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-docs): v20.0.0 => v21.0.0
-* [@ckeditor/ckeditor5-dev-env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env): v20.2.0 => v21.0.0
-* [@ckeditor/ckeditor5-dev-tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests): v20.0.2 => v21.0.0
-* [@ckeditor/ckeditor5-dev-utils](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-utils): v20.0.0 => v21.0.0
-* [@ckeditor/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-webpack-plugin): v20.0.0 => v21.0.0
+* [@yproximite/ckeditor5-dev-docs](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-docs): v20.0.0 => v21.0.0
+* [@yproximite/ckeditor5-dev-env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env): v20.2.0 => v21.0.0
+* [@yproximite/ckeditor5-dev-tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests): v20.0.2 => v21.0.0
+* [@yproximite/ckeditor5-dev-utils](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-utils): v20.0.0 => v21.0.0
+* [@yproximite/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-webpack-plugin): v20.0.0 => v21.0.0
 * [@ckeditor/jsdoc-plugins](https://www.npmjs.com/package/@ckeditor/jsdoc-plugins): v20.0.0 => v21.0.0
 * [eslint-config-ckeditor5](https://www.npmjs.com/package/eslint-config-ckeditor5): v2.1.0 => v3.0.0
 * [eslint-plugin-ckeditor5-rules](https://www.npmjs.com/package/eslint-plugin-ckeditor5-rules): v0.0.5 => v1.0.0
@@ -506,7 +506,7 @@ Check out the [Versioning policy](https://ckeditor.com/docs/ckeditor5/latest/fra
 
 Other releases:
 
-* [@ckeditor/ckeditor5-dev-tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests): v20.0.1 => v20.0.2
+* [@yproximite/ckeditor5-dev-tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests): v20.0.1 => v20.0.2
 </details>
 
 
@@ -514,13 +514,13 @@ Other releases:
 
 ### Features
 
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: Release commit will trigger a Continuous Integration service. Closes [ckeditor/ckeditor5#7302](https://github.com/ckeditor/ckeditor5/issues/7302). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/e3495c82ff447b49882cc58d485f2c2d7cda665f))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: Release commit will trigger a Continuous Integration service. Closes [ckeditor/ckeditor5#7302](https://github.com/ckeditor/ckeditor5/issues/7302). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/e3495c82ff447b49882cc58d485f2c2d7cda665f))
 
 ### Bug fixes
 
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: The changelog generator will properly merge the `Closes` references. Closes [ckeditor/ckeditor5#7298](https://github.com/ckeditor/ckeditor5/issues/7298). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/4f0737da0d10168547ec8b523d4df36cb958dcff))
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: References to issues in additional commits will be merged and linked. See [ckeditor/ckeditor5#7298](https://github.com/ckeditor/ckeditor5/issues/7298). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/4f0737da0d10168547ec8b523d4df36cb958dcff))
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: The `releaseSubRepositories()` task should not throw any error if publishing from the non-master branch. Closes [ckeditor/ckeditor5#7300](https://github.com/ckeditor/ckeditor5/issues/7300). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/e74f022e3270e9aeafca6c8ede39ce43d9433095))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: The changelog generator will properly merge the `Closes` references. Closes [ckeditor/ckeditor5#7298](https://github.com/ckeditor/ckeditor5/issues/7298). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/4f0737da0d10168547ec8b523d4df36cb958dcff))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: References to issues in additional commits will be merged and linked. See [ckeditor/ckeditor5#7298](https://github.com/ckeditor/ckeditor5/issues/7298). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/4f0737da0d10168547ec8b523d4df36cb958dcff))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: The `releaseSubRepositories()` task should not throw any error if publishing from the non-master branch. Closes [ckeditor/ckeditor5#7300](https://github.com/ckeditor/ckeditor5/issues/7300). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/e74f022e3270e9aeafca6c8ede39ce43d9433095))
 
 ### Released packages
 
@@ -531,7 +531,7 @@ Check out the [Versioning policy](https://ckeditor.com/docs/ckeditor5/latest/fra
 
 Releases containing new features:
 
-* [@ckeditor/ckeditor5-dev-env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env): v20.1.0 => v20.2.0
+* [@yproximite/ckeditor5-dev-env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env): v20.1.0 => v20.2.0
 </details>
 
 
@@ -539,11 +539,11 @@ Releases containing new features:
 
 ### Features
 
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: Allows releasing packages from the non-master branch. Closes [ckeditor/ckeditor5#7271](https://github.com/ckeditor/ckeditor5/issues/7271). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/d5ad37b15c6c33cac0cbe7eb113f5bd477edc114))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: Allows releasing packages from the non-master branch. Closes [ckeditor/ckeditor5#7271](https://github.com/ckeditor/ckeditor5/issues/7271). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/d5ad37b15c6c33cac0cbe7eb113f5bd477edc114))
 
 ### Bug fixes
 
-* **[tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests)**: The getRelativeFilePath() util will return proper paths for CKEditor 5 builds. Closes [ckeditor/ckeditor5#7280](https://github.com/ckeditor/ckeditor5/issues/7280). Closes [ckeditor/ckeditor5#7093](https://github.com/ckeditor/ckeditor5/issues/7093). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/ccd299e24974285606d2110ddd5e7fc438f14186))
+* **[tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests)**: The getRelativeFilePath() util will return proper paths for CKEditor 5 builds. Closes [ckeditor/ckeditor5#7280](https://github.com/ckeditor/ckeditor5/issues/7280). Closes [ckeditor/ckeditor5#7093](https://github.com/ckeditor/ckeditor5/issues/7093). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/ccd299e24974285606d2110ddd5e7fc438f14186))
 
 ### Released packages
 
@@ -554,11 +554,11 @@ Check out the [Versioning policy](https://ckeditor.com/docs/ckeditor5/latest/fra
 
 Releases containing new features:
 
-* [@ckeditor/ckeditor5-dev-env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env): v20.0.0 => v20.1.0
+* [@yproximite/ckeditor5-dev-env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env): v20.0.0 => v20.1.0
 
 Other releases:
 
-* [@ckeditor/ckeditor5-dev-tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests): v20.0.0 => v20.0.1
+* [@yproximite/ckeditor5-dev-tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests): v20.0.0 => v20.0.1
 </details>
 
 
@@ -566,11 +566,11 @@ Other releases:
 
 ### MAJOR BREAKING CHANGES [ℹ️](https://ckeditor.com/docs/ckeditor5/latest/framework/guides/support/versioning-policy.html#major-and-minor-breaking-changes)
 
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: Removed `generateChangelogForSubPackages()` task. Use `generateChangelogForMonoRepository()` instead.
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: Removed `generateChangelogForSubRepositories()` task. Use `generateChangelogForMonoRepository()` instead if your repository is a monorepository.
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: Removed `generateSummaryChangelog()` task.
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: CKEditor 5 release tools now are designed to work with monorepo architecture.
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: Following binary commands were removed:
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: Removed `generateChangelogForSubPackages()` task. Use `generateChangelogForMonoRepository()` instead.
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: Removed `generateChangelogForSubRepositories()` task. Use `generateChangelogForMonoRepository()` instead if your repository is a monorepository.
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: Removed `generateSummaryChangelog()` task.
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: CKEditor 5 release tools now are designed to work with monorepo architecture.
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: Following binary commands were removed:
   * `ckeditor5-dev-tests-travis`
   * `ckeditor5-dev-tests-prepare-mrgit-json`
   * `ckeditor5-dev-tests-prepare-package-json`
@@ -579,37 +579,37 @@ Other releases:
 
 ### MINOR BREAKING CHANGES [ℹ️](https://ckeditor.com/docs/ckeditor5/latest/framework/guides/support/versioning-policy.html#major-and-minor-breaking-changes)
 
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: Removed support for the `NOTE` type of commit's notes.
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: Removed `hasMajorBreakingChanges()` and `hasMinorBreakingChanges()` utils from `/lib/release-tools/utils/changelog.js` helper.
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: Removed the `getNewReleaseType()` util. Use `getCommits()` and `getNewVersionType()` instead.
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: Removed `getSubPackagesPaths()` util.
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: Renamed `getSubRepositoriesPaths()` util to `getPackagesPaths()`.
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: The util `getPackagesPaths()` does not check whether packages are defined as `dependencies` in `package.json` in the main repository.
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: Task `generateChangelogForSinglePackage()` does not accept options: `newVersion`, `disableMajorBump`, `isInternalRelease`, `indentLevel`, `useExplicitBreakingChangeGroups` anymore. The task should be used for generating the changelog for the single repository.
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: Moved all utils from `/lib/release-tools/utils/transform-commit` to `/lib/release-tools/utils`.
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: Removed support for the `NOTE` type of commit's notes.
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: Removed `hasMajorBreakingChanges()` and `hasMinorBreakingChanges()` utils from `/lib/release-tools/utils/changelog.js` helper.
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: Removed the `getNewReleaseType()` util. Use `getCommits()` and `getNewVersionType()` instead.
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: Removed `getSubPackagesPaths()` util.
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: Renamed `getSubRepositoriesPaths()` util to `getPackagesPaths()`.
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: The util `getPackagesPaths()` does not check whether packages are defined as `dependencies` in `package.json` in the main repository.
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: Task `generateChangelogForSinglePackage()` does not accept options: `newVersion`, `disableMajorBump`, `isInternalRelease`, `indentLevel`, `useExplicitBreakingChangeGroups` anymore. The task should be used for generating the changelog for the single repository.
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: Moved all utils from `/lib/release-tools/utils/transform-commit` to `/lib/release-tools/utils`.
 
 ### Features
 
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: Support for multi-entries messages in the single commit and scoped changes. Closes [ckeditor/ckeditor5#7207](https://github.com/ckeditor/ckeditor5/issues/7207), [ckeditor/ckeditor5#7171](https://github.com/ckeditor/ckeditor5/issues/7171). See [Git commit message convention guide](https://ckeditor.com/docs/ckeditor5/latest/framework/guides/contributing/git-commit-message-convention.html). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/0f19f52c71207c8f1be57ac2b1ab1c9fc032f3e9))
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: Added new utils that help to collect commits, parsing them, and generating the changelog. ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/0f19f52c71207c8f1be57ac2b1ab1c9fc032f3e9))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: Support for multi-entries messages in the single commit and scoped changes. Closes [ckeditor/ckeditor5#7207](https://github.com/ckeditor/ckeditor5/issues/7207), [ckeditor/ckeditor5#7171](https://github.com/ckeditor/ckeditor5/issues/7171). See [Git commit message convention guide](https://ckeditor.com/docs/ckeditor5/latest/framework/guides/contributing/git-commit-message-convention.html). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/0f19f52c71207c8f1be57ac2b1ab1c9fc032f3e9))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: Added new utils that help to collect commits, parsing them, and generating the changelog. ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/0f19f52c71207c8f1be57ac2b1ab1c9fc032f3e9))
 
   *   The util for generating changelog from commits (those must be specified as an argument). See `/lib/release-tools/utils/generatechangelog.js`
   *   The util for collecting commits. See `/lib/release-tools/utils/getcommits.js`
   *   The util for suggesting new version based on commits. See `/lib/release-tools/utils/getnewversiontype.js`
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: Task `generateChangelogForSinglePackage()` supports new options: `from` - a commit or tag for collecting commits since the last release, `highlightsPlaceholder` - whether to add "Release highlights" placeholder in the changelog, `collaborationFeatures` - whether to add a URL to collaboration features changelog. ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/0f19f52c71207c8f1be57ac2b1ab1c9fc032f3e9))
-* **[tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests)**: Introduced the `--port` flag allowing to customize port number for automated tests server. Closes [#637](https://github.com/ckeditor/ckeditor5-dev/issues/637). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/9144675985e7957d8f11279a92325239bba4127d))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: Task `generateChangelogForSinglePackage()` supports new options: `from` - a commit or tag for collecting commits since the last release, `highlightsPlaceholder` - whether to add "Release highlights" placeholder in the changelog, `collaborationFeatures` - whether to add a URL to collaboration features changelog. ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/0f19f52c71207c8f1be57ac2b1ab1c9fc032f3e9))
+* **[tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests)**: Introduced the `--port` flag allowing to customize port number for automated tests server. Closes [#637](https://github.com/ckeditor/ckeditor5-dev/issues/637). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/9144675985e7957d8f11279a92325239bba4127d))
 
 ### Bug fixes
 
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: The `getChangedFilesForCommit()` util filters files returned by the Git command. It won't return an empty string anymore. ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/0f19f52c71207c8f1be57ac2b1ab1c9fc032f3e9))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: The `getChangedFilesForCommit()` util filters files returned by the Git command. It won't return an empty string anymore. ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/0f19f52c71207c8f1be57ac2b1ab1c9fc032f3e9))
 
 ### Other changes
 
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: Adjusted release tools to handle single mono-repository architecture. Closes [#606](https://github.com/ckeditor/ckeditor5-dev/issues/606). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/6a4dfb24ffb472027ef93144cea0d73e0744c587))
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: Commits in the changelog will display the word `commit` instead of the first 7 characters from the commit's hash. In big repositories (the number of commits is huge), 7 characters are not unique anymore. ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/0f19f52c71207c8f1be57ac2b1ab1c9fc032f3e9))
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: `Closes` references will be merged into a single entry. Github does not support such references (`Closes x, y`) but it can be simplified during the commit's transformation. ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/0f19f52c71207c8f1be57ac2b1ab1c9fc032f3e9))
-* **[env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env)**: The `provideVersion()` util from `lib/release-tools/utils/cli.js` allows disabling returning `skip` version by setting its option `disableSkipVersion` to `true`. ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/0f19f52c71207c8f1be57ac2b1ab1c9fc032f3e9))
-* **[tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests)**: Removed unnecessary scripts after merging the main repository to the monorepo. Closes [#628](https://github.com/ckeditor/ckeditor5-dev/issues/628). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/e2048e95181c971c221171e33cde86fe990a97af))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: Adjusted release tools to handle single mono-repository architecture. Closes [#606](https://github.com/ckeditor/ckeditor5-dev/issues/606). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/6a4dfb24ffb472027ef93144cea0d73e0744c587))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: Commits in the changelog will display the word `commit` instead of the first 7 characters from the commit's hash. In big repositories (the number of commits is huge), 7 characters are not unique anymore. ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/0f19f52c71207c8f1be57ac2b1ab1c9fc032f3e9))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: `Closes` references will be merged into a single entry. Github does not support such references (`Closes x, y`) but it can be simplified during the commit's transformation. ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/0f19f52c71207c8f1be57ac2b1ab1c9fc032f3e9))
+* **[env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env)**: The `provideVersion()` util from `lib/release-tools/utils/cli.js` allows disabling returning `skip` version by setting its option `disableSkipVersion` to `true`. ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/0f19f52c71207c8f1be57ac2b1ab1c9fc032f3e9))
+* **[tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests)**: Removed unnecessary scripts after merging the main repository to the monorepo. Closes [#628](https://github.com/ckeditor/ckeditor5-dev/issues/628). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/e2048e95181c971c221171e33cde86fe990a97af))
 * Removed `lerna` and all its files from the project. Now the release process is handled by our tools. The entire repository will follow the same rules as `ckeditor5.` Read more in the [Versioning policy guide](https://ckeditor.com/docs/ckeditor5/latest/framework/guides/support/versioning-policy.html). ([commit](https://github.com/ckeditor/ckeditor5-dev/commit/0f19f52c71207c8f1be57ac2b1ab1c9fc032f3e9))
 
 ### Released packages
@@ -621,16 +621,16 @@ Check out the [Versioning policy](https://ckeditor.com/docs/ckeditor5/latest/fra
 
 Major releases (contain major breaking changes):
 
-* [@ckeditor/ckeditor5-dev-env](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-env): v18.0.1 => v20.0.0
+* [@yproximite/ckeditor5-dev-env](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-env): v18.0.1 => v20.0.0
 
 Releases containing new features:
 
-* [@ckeditor/ckeditor5-dev-docs](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-docs): v11.1.1 => v20.0.0
+* [@yproximite/ckeditor5-dev-docs](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-docs): v11.1.1 => v20.0.0
 
 Other releases:
 
-* [@ckeditor/ckeditor5-dev-tests](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-tests): v19.2.0 => v20.0.0
-* [@ckeditor/ckeditor5-dev-utils](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-utils): v13.0.1 => v20.0.0
-* [@ckeditor/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-webpack-plugin): v9.0.2 => v20.0.0
+* [@yproximite/ckeditor5-dev-tests](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-tests): v19.2.0 => v20.0.0
+* [@yproximite/ckeditor5-dev-utils](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-utils): v13.0.1 => v20.0.0
+* [@yproximite/ckeditor5-dev-webpack-plugin](https://www.npmjs.com/package/@yproximite/ckeditor5-dev-webpack-plugin): v9.0.2 => v20.0.0
 * [@ckeditor/jsdoc-plugins](https://www.npmjs.com/package/@ckeditor/jsdoc-plugins): v3.0.9 => v20.0.0
 </details>

@@ -95,7 +95,7 @@ describe( 'compileHtmlFiles', () => {
 		mockery.registerMock( 'fs-extra', stubs.fs );
 		mockery.registerMock( 'chokidar', stubs.chokidar );
 		mockery.registerMock( 'dom-combiner', stubs.domCombiner );
-		mockery.registerMock( '@ckeditor/ckeditor5-dev-utils', {
+		mockery.registerMock( '@yproximite/ckeditor5-dev-utils', {
 			logger() {
 				return stubs.logger;
 			}

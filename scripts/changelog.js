@@ -16,6 +16,6 @@ require( '../packages/ckeditor5-dev-env' )
 				return 'https://www.npmjs.com/package/@ckeditor/jsdoc-plugins';
 			}
 
-			return 'https://www.npmjs.com/package/@ckeditor/ckeditor5-dev-' + name;
+			return 'https://www.npmjs.com/package/@yproximite/ckeditor5-dev-' + name;
 		}
 	} );

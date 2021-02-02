@@ -12,7 +12,7 @@ More information about development tools packages can be found at the following 
 The current functionality of this plugin is limited to localizing the editor builds. Add this plugin to your webpack configuration to change the language of the editor's interface or build the editor with support for multiple languages (by extracting multiple language files):
 
 ```js
-const CKEditorWebpackPlugin = require( '@ckeditor/ckeditor5-dev-webpack-plugin' );
+const CKEditorWebpackPlugin = require( '@yproximite/ckeditor5-dev-webpack-plugin' );
 
 // Define webpack plugins ...
 	plugins: [

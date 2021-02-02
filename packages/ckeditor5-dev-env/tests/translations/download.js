@@ -46,7 +46,7 @@ describe( 'download', () => {
 
 		sinon.stub( process, 'cwd' ).returns( 'workspace' );
 
-		mockery.registerMock( '@ckeditor/ckeditor5-dev-utils', {
+		mockery.registerMock( '@yproximite/ckeditor5-dev-utils', {
 			translations: stubs.translationUtils,
 			logger: () => stubs.logger
 		} );

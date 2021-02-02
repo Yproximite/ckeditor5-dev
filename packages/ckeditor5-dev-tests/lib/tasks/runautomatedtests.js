@@ -152,7 +152,7 @@ function runKarma( options ) {
 			server.on( 'run_complete', () => {
 				// Use timeout to not write to the console in the middle of Karma's status.
 				setTimeout( () => {
-					const { logger } = require( '@ckeditor/ckeditor5-dev-utils' );
+					const { logger } = require( '@yproximite/ckeditor5-dev-utils' );
 					const log = logger();
 
 					log.info( `Coverage report saved in '${ chalk.cyan( coveragePath ) }'.` );

@@ -5,7 +5,7 @@
 
 'use strict';
 
-const { logger } = require( '@ckeditor/ckeditor5-dev-utils' );
+const { logger } = require( '@yproximite/ckeditor5-dev-utils' );
 
 /**
  * Plugin for Webpack which helps to inform the developer about processes.

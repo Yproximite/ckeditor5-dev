@@ -10,19 +10,19 @@ More information about development tools packages can be found at the following 
 ### Usage
 
 ```
-npm i --save-dev @ckeditor/ckeditor5-dev-env
+npm i --save-dev @yproximite/ckeditor5-dev-env
 ```
 
 Then create a script that run tasks:
 
 ```js
 // scripts/changelog-self.js: Generate changelog for the current package.
-require( '@ckeditor/ckeditor5-dev-env' ).generateChangelogForSinglePackage();
+require( '@yproximite/ckeditor5-dev-env' ).generateChangelogForSinglePackage();
 ```
 
 ```js
 // scripts/changelog-repos.js: Generate changelog for all dependencies (repository using multiple repositories).
-require( '@ckeditor/ckeditor5-dev-env' ).generateChangelogForSubRepositories( /* options */ );
+require( '@yproximite/ckeditor5-dev-env' ).generateChangelogForSubRepositories( /* options */ );
 
 // See the `options` argument:
 // https://github.com/ckeditor/ckeditor5-dev/blob/master/packages/ckeditor5-dev-env/lib/release-tools/tasks/generatechangelogforsubrepositories.js#L20-L27
@@ -30,7 +30,7 @@ require( '@ckeditor/ckeditor5-dev-env' ).generateChangelogForSubRepositories( /*
 
 ```js
 // scripts/changelog-packages.js: Generate changelog for all packages (repository contains multiple packages).
-require( '@ckeditor/ckeditor5-dev-env' ).generateChangelogForSubPackages( /* options */ );
+require( '@yproximite/ckeditor5-dev-env' ).generateChangelogForSubPackages( /* options */ );
 
 // See the `options` argument:
 // https://github.com/ckeditor/ckeditor5-dev/blob/master/packages/ckeditor5-dev-env/lib/release-tools/tasks/generatechangelogforsubpackages.js#L20-L27
@@ -38,7 +38,7 @@ require( '@ckeditor/ckeditor5-dev-env' ).generateChangelogForSubPackages( /* opt
 
 ```js
 // scripts/release-bump-versions.js: Validates and updates version for all packages (includes the package found in options.cwd)
-require( '@ckeditor/ckeditor5-dev-env' ).bumpVersions( /* options */ );
+require( '@yproximite/ckeditor5-dev-env' ).bumpVersions( /* options */ );
 
 // See the `options` argument:
 // https://github.com/ckeditor/ckeditor5-dev/blob/master/packages/ckeditor5-dev-env/lib/release-tools/tasks/bumpversions.js#L20-L27
@@ -46,7 +46,7 @@ require( '@ckeditor/ckeditor5-dev-env' ).bumpVersions( /* options */ );
 
 ```js
 // scripts/release-packages.js: Publish all changes.
-require( '@ckeditor/ckeditor5-dev-env' ).releaseSubRepositories( /* options */ );
+require( '@yproximite/ckeditor5-dev-env' ).releaseSubRepositories( /* options */ );
 
 // See the `options` argument:
 // https://github.com/ckeditor/ckeditor5-dev/blob/master/packages/ckeditor5-dev-env/lib/release-tools/tasks/releasesubrepositories.js#L20-L27
@@ -91,7 +91,7 @@ Available tasks:
 ### Usage
 
 ```
-npm i --save-dev @ckeditor/ckeditor5-dev-env
+npm i --save-dev @yproximite/ckeditor5-dev-env
 ```
 
 Then use `ckeditor5-dev-env-translations` command:

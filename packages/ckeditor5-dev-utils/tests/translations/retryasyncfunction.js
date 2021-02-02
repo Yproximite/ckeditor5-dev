@@ -32,7 +32,7 @@ describe( 'translations', () => {
 			};
 
 			retryAsyncFunction = proxyquire( '../../lib/translations/retryasyncfunction', {
-				'@ckeditor/ckeditor5-dev-utils': {
+				'@yproximite/ckeditor5-dev-utils': {
 					logger: () => stubs.logger
 				}
 			} );

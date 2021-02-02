@@ -6,7 +6,7 @@
 'use strict';
 
 const del = require( 'del' );
-const { logger } = require( '@ckeditor/ckeditor5-dev-utils' );
+const { logger } = require( '@yproximite/ckeditor5-dev-utils' );
 const chalk = require( 'chalk' );
 
 /**

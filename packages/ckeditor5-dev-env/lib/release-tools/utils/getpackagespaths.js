@@ -7,7 +7,7 @@
 
 const path = require( 'path' );
 const minimatch = require( 'minimatch' );
-const { tools } = require( '@ckeditor/ckeditor5-dev-utils' );
+const { tools } = require( '@yproximite/ckeditor5-dev-utils' );
 const getPackageJson = require( './getpackagejson' );
 
 /**

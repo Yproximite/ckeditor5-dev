@@ -6,7 +6,7 @@
 'use strict';
 
 const fs = require( 'fs' );
-const { tools, logger } = require( '@ckeditor/ckeditor5-dev-utils' );
+const { tools, logger } = require( '@yproximite/ckeditor5-dev-utils' );
 const chalk = require( 'chalk' );
 const semver = require( 'semver' );
 const cli = require( '../utils/cli' );

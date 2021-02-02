@@ -19,7 +19,7 @@ describe( 'getWebpackConfigForAutomatedTests()', () => {
 			warnOnUnregistered: false
 		} );
 
-		mockery.registerMock( '@ckeditor/ckeditor5-dev-utils', {
+		mockery.registerMock( '@yproximite/ckeditor5-dev-utils', {
 			styles: {
 				getPostCssConfig: options => {
 					postCssOptions = options;
@@ -27,7 +27,7 @@ describe( 'getWebpackConfigForAutomatedTests()', () => {
 			}
 		} );
 
-		mockery.registerMock( '@ckeditor/ckeditor5-dev-utils', {
+		mockery.registerMock( '@yproximite/ckeditor5-dev-utils', {
 			styles: {
 				getPostCssConfig: options => {
 					postCssOptions = options;

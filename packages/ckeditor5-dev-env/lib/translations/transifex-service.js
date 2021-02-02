@@ -11,7 +11,7 @@ const request = require( 'request' );
 // See https://github.com/request/request-debug.
 // require( 'request-debug' )( request );
 
-const { retryAsyncFunction } = require( '@ckeditor/ckeditor5-dev-utils' ).translations;
+const { retryAsyncFunction } = require( '@yproximite/ckeditor5-dev-utils' ).translations;
 
 const PROJECT_URL = 'https://www.transifex.com/api/2/project/ckeditor5';
 

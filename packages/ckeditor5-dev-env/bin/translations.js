@@ -23,7 +23,7 @@ const tasks = {
 		const includeExternalDirectory = process.argv.includes( '--include-external-directory' );
 
 		const createPotFiles = require( '../lib/translations/createpotfiles' );
-		const logger = require( '@ckeditor/ckeditor5-dev-utils' ).logger();
+		const logger = require( '@yproximite/ckeditor5-dev-utils' ).logger();
 
 		createPotFiles( {
 			sourceFiles: getCKEditor5SourceFiles( { includeExternalDirectory } ),

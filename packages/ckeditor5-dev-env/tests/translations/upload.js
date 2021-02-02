@@ -72,7 +72,7 @@ describe( 'upload', () => {
 		sandbox.stub( process, 'cwd' ).returns( path.join( 'workspace', 'ckeditor5' ) );
 
 		upload = proxyquire( '../../lib/translations/upload', {
-			'@ckeditor/ckeditor5-dev-utils': {
+			'@yproximite/ckeditor5-dev-utils': {
 				logger: () => stubs.logger
 			},
 			'fs': stubs.fs,

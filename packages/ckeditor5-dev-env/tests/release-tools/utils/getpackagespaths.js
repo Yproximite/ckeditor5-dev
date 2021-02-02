@@ -24,7 +24,7 @@ describe( 'dev-env/release-tools/utils', () => {
 
 			getPackagesPaths = proxyquire( '../../../lib/release-tools/utils/getpackagespaths', {
 				'./getpackagejson': getPackageJsonStub,
-				'@ckeditor/ckeditor5-dev-utils': {
+				'@yproximite/ckeditor5-dev-utils': {
 					tools: {
 						getDirectories: getDirectoriesStub
 					}

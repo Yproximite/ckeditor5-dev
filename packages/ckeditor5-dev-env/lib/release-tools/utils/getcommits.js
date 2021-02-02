@@ -10,7 +10,7 @@ const conventionalCommitsFilter = require( 'conventional-commits-filter' );
 const gitRawCommits = require( 'git-raw-commits' );
 const concat = require( 'concat-stream' );
 const parserOptions = require( './parseroptions' );
-const { tools } = require( '@ckeditor/ckeditor5-dev-utils' );
+const { tools } = require( '@yproximite/ckeditor5-dev-utils' );
 
 /**
  * Returns a promise that resolves an array of commits since the last tag specified as `options.from`.

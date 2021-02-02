@@ -7,7 +7,7 @@
 
 const path = require( 'path' );
 const minimist = require( 'minimist' );
-const { tools, logger } = require( '@ckeditor/ckeditor5-dev-utils' );
+const { tools, logger } = require( '@yproximite/ckeditor5-dev-utils' );
 
 /**
  * @param {Array.<String>} args

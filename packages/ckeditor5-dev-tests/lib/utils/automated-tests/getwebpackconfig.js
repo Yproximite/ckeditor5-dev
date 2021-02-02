@@ -7,7 +7,7 @@
 
 const path = require( 'path' );
 const escapedPathSep = path.sep == '/' ? '/' : '\\\\';
-const { getPostCssConfig } = require( '@ckeditor/ckeditor5-dev-utils' ).styles;
+const { getPostCssConfig } = require( '@yproximite/ckeditor5-dev-utils' ).styles;
 
 /**
  * @param {Object} options

@@ -8,8 +8,8 @@
 const fs = require( 'fs-extra' );
 const path = require( 'path' );
 const transifexService = require( './transifex-service' );
-const logger = require( '@ckeditor/ckeditor5-dev-utils' ).logger();
-const { cleanPoFileContent, createDictionaryFromPoFileContent } = require( '@ckeditor/ckeditor5-dev-utils' ).translations;
+const logger = require( '@yproximite/ckeditor5-dev-utils' ).logger();
+const { cleanPoFileContent, createDictionaryFromPoFileContent } = require( '@yproximite/ckeditor5-dev-utils' ).translations;
 const languageCodeMap = require( './languagecodemap.json' );
 
 /**

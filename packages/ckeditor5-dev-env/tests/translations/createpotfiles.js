@@ -39,7 +39,7 @@ describe( 'createPotFiles()', () => {
 		createPotFiles = proxyquire( '../../lib/translations/createpotfiles', {
 			'del': stubs.del,
 			'fs-extra': stubs.fs,
-			'@ckeditor/ckeditor5-dev-utils': {
+			'@yproximite/ckeditor5-dev-utils': {
 				translations: stubs.translations
 			},
 			'path': posix
