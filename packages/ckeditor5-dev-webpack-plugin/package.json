@@ -1,6 +1,10 @@
 {
   "name": "@yproximite/ckeditor5-dev-webpack-plugin",
   "version": "24.1.0",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
+  },
   "description": "CKEditor 5 plugin for webpack.",
   "keywords": [],
   "main": "lib/index.js",

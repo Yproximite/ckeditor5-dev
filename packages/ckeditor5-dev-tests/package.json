@@ -1,6 +1,10 @@
 {
   "name": "@yproximite/ckeditor5-dev-tests",
   "version": "24.1.0",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
+  },
   "description": "Testing environment for CKEditor 5.",
   "keywords": [],
   "main": "lib/index.js",

@@ -1,6 +1,10 @@
 {
   "name": "@ckeditor/jsdoc-plugins",
   "version": "24.1.0",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
+  },
   "description": "Various JSDoc plugins developed by the CKEditor 5 team.",
   "keywords": [
     "jsdoc",
