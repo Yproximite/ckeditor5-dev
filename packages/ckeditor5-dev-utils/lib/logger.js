@@ -27,7 +27,7 @@ levels.set( 'error', new Set( [ 'info', 'warning', 'error' ] ) );
  *
  * Usage:
  *
- *      const logger = require( '@ckeditor/ckeditor5-dev-utils' ).logger;
+ *      const logger = require( '@yproximite/ckeditor5-dev-utils' ).logger;
  *
  *      const infoLog = logger( 'info' );
  *      infoLog.info( 'Message.' ); // This message will be always displayed.

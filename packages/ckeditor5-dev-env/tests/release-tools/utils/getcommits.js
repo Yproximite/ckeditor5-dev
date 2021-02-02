@@ -10,7 +10,7 @@ const path = require( 'path' );
 const sinon = require( 'sinon' );
 const expect = require( 'chai' ).expect;
 const mockery = require( 'mockery' );
-const { tools } = require( '@ckeditor/ckeditor5-dev-utils' );
+const { tools } = require( '@yproximite/ckeditor5-dev-utils' );
 
 describe( 'dev-env/release-tools/utils', () => {
 	let tmpCwd, cwd, stubs, sandbox, getCommits;
@@ -56,7 +56,7 @@ describe( 'dev-env/release-tools/utils', () => {
 				return require( modulePath )( options );
 			} );
 
-			mockery.registerMock( '@ckeditor/ckeditor5-dev-utils', {
+			mockery.registerMock( '@yproximite/ckeditor5-dev-utils', {
 				tools: {
 					shExec: stubs.shExec
 				}

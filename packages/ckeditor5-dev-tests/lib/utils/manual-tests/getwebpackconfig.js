@@ -7,8 +7,8 @@
 
 const path = require( 'path' );
 const WebpackNotifierPlugin = require( './webpacknotifierplugin' );
-const { getPostCssConfig } = require( '@ckeditor/ckeditor5-dev-utils' ).styles;
-const CKEditorWebpackPlugin = require( '@ckeditor/ckeditor5-dev-webpack-plugin' );
+const { getPostCssConfig } = require( '@yproximite/ckeditor5-dev-utils' ).styles;
+const CKEditorWebpackPlugin = require( '@yproximite/ckeditor5-dev-webpack-plugin' );
 const webpack = require( 'webpack' );
 
 /**
@@ -69,14 +69,19 @@ module.exports = function getWebpackConfigForManualTests( options ) {
 								}
 							}
 						},
+						'css-loader',
 						{
 							loader: 'postcss-loader',
-							options: getPostCssConfig( {
-								themeImporter: {
-									themePath: options.themePath
-								},
-								sourceMap: true
-							} )
+							options: {
+								postcssOptions: getPostCssConfig( {
+									themeImporter: {
+										themePath: require.resolve(
+											path.join( process.cwd(), 'node_modules', '@ckeditor/ckeditor5-theme-lark' )
+										)
+									},
+									minify: true
+								} )
+							}
 						}
 					]
 				},
@@ -87,7 +92,7 @@ module.exports = function getWebpackConfigForManualTests( options ) {
 				{
 					test: /\.js$/,
 					loader: require.resolve( '../ck-debug-loader' ),
-					query: {
+					options: {
 						debugFlags: options.debug
 					}
 				}

@@ -5,14 +5,14 @@ All changes in the package are documented in the main repository. See: https://g
 
 Changes for the past releases are available below.
 
-## [19.2.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@19.1.0...@ckeditor/ckeditor5-dev-tests@19.2.0) (2020-05-14)
+## [19.2.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@19.1.0...@yproximite/ckeditor5-dev-tests@19.2.0) (2020-05-14)
 
 ### Features
 
 * Allowed `ckeditor5-dev-tests` package to search for test files in the `external/*/packages/` directory. See [ckeditor/ckeditor5#6787](https://github.com/ckeditor/ckeditor5/issues/6787). ([df44a5e](https://github.com/ckeditor/ckeditor5-dev/commit/df44a5e))
 
 
-## [19.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@19.0.0...@ckeditor/ckeditor5-dev-tests@19.1.0) (2020-05-13)
+## [19.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@19.0.0...@yproximite/ckeditor5-dev-tests@19.1.0) (2020-05-13)
 
 ### Features
 
@@ -20,7 +20,7 @@ Changes for the past releases are available below.
 * It's now possible to pass a custom path to the `ckeditor5-dev-tests-check-dependencies` bin as a CLI argument. Closes [#630](https://github.com/ckeditor/ckeditor5-dev/issues/630). ([5ee2e7f](https://github.com/ckeditor/ckeditor5-dev/commit/5ee2e7f))
 
 
-## [19.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@18.2.1...@ckeditor/ckeditor5-dev-tests@19.0.0) (2020-04-23)
+## [19.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@18.2.1...@yproximite/ckeditor5-dev-tests@19.0.0) (2020-04-23)
 
 ### BREAKING CHANGES
 
@@ -32,52 +32,52 @@ Changes for the past releases are available below.
 * Introduced support for plural translation forms. Closes [ckeditor/ckeditor5#6526](https://github.com/ckeditor/ckeditor5/issues/6526). Closes [ckeditor/ckeditor5#988](https://github.com/ckeditor/ckeditor5/issues/988). ([305590e](https://github.com/ckeditor/ckeditor5-dev/commit/305590e))
 
 
-## [18.2.1](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@18.2.0...@ckeditor/ckeditor5-dev-tests@18.2.1) (2020-04-16)
+## [18.2.1](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@18.2.0...@yproximite/ckeditor5-dev-tests@18.2.1) (2020-04-16)
 
 ### Other changes
 
 * The leak detector now prints the outerHTML of the elements leaked. Closes [#617](https://github.com/ckeditor/ckeditor5-dev/issues/617). ([6f70021](https://github.com/ckeditor/ckeditor5-dev/commit/6f70021))
 
 
-## [18.2.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@18.1.0...@ckeditor/ckeditor5-dev-tests@18.2.0) (2020-04-14)
+## [18.2.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@18.1.0...@yproximite/ckeditor5-dev-tests@18.2.0) (2020-04-14)
 
 ### Features
 
 * Code coverage is also stored as a JSON file. Closes [#615](https://github.com/ckeditor/ckeditor5-dev/issues/615). ([075f5c1](https://github.com/ckeditor/ckeditor5-dev/commit/075f5c1))
 
 
-## [18.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@18.0.5...@ckeditor/ckeditor5-dev-tests@18.1.0) (2020-04-08)
+## [18.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@18.0.5...@yproximite/ckeditor5-dev-tests@18.1.0) (2020-04-08)
 
 ### Other changes
 
 * The `<style>` element that is being produced by webpack for the editor styles will have the `data-cke="true"` attribute in order to help find CKEditor 5 styles. Closes [ckeditor/ckeditor5#6454](https://github.com/ckeditor/ckeditor5/issues/6454). ([223df34](https://github.com/ckeditor/ckeditor5-dev/commit/223df34))
 
 
-## [18.0.5](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@18.0.4...@ckeditor/ckeditor5-dev-tests@18.0.5) (2020-03-27)
+## [18.0.5](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@18.0.4...@yproximite/ckeditor5-dev-tests@18.0.5) (2020-03-27)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
 
-## [18.0.4](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@18.0.3...@ckeditor/ckeditor5-dev-tests@18.0.4) (2020-02-26)
+## [18.0.4](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@18.0.3...@yproximite/ckeditor5-dev-tests@18.0.4) (2020-02-26)
 
 ### Bug fixes
 
 * Add eslint-plugin-mocha to ignored dependencies. ([7c702b2](https://github.com/ckeditor/ckeditor5-dev/commit/7c702b2))
 
 
-## [18.0.3](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@18.0.1...@ckeditor/ckeditor5-dev-tests@18.0.3) (2020-02-26)
+## [18.0.3](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@18.0.1...@yproximite/ckeditor5-dev-tests@18.0.3) (2020-02-26)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
 
-## [18.0.1](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@18.0.0...@ckeditor/ckeditor5-dev-tests@18.0.1) (2020-01-27)
+## [18.0.1](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@18.0.0...@yproximite/ckeditor5-dev-tests@18.0.1) (2020-01-27)
 
 ### Bug fixes
 
 * Switched to a fork of JSDoc with version 3.4.3 patched to be compatible with NodeJS 12. Also, bumped chalk library to fix thrown error. Closes [#525](https://github.com/ckeditor/ckeditor5-dev/issues/525). ([a7599ba](https://github.com/ckeditor/ckeditor5-dev/commit/a7599ba))
 
 
-## [18.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@17.1.0...@ckeditor/ckeditor5-dev-tests@18.0.0) (2020-01-09)
+## [18.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@17.1.0...@yproximite/ckeditor5-dev-tests@18.0.0) (2020-01-09)
 
 ### MAJOR BREAKING CHANGES
 
@@ -93,14 +93,14 @@ Internal changes only (updated dependencies, documentation, etc.).
 * RegExp pattern for coverage files now properly matches all `ckeditor-` and `ckeditor5-` packages. Closes [#584](https://github.com/ckeditor/ckeditor5-dev/issues/584). ([d80cf5e](https://github.com/ckeditor/ckeditor5-dev/commit/d80cf5e))
 
 
-## [17.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@17.0.0...@ckeditor/ckeditor5-dev-tests@17.1.0) (2019-11-27)
+## [17.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@17.0.0...@yproximite/ckeditor5-dev-tests@17.1.0) (2019-11-27)
 
 ### Features
 
 * Execute the `stylelint` task on CI. Closes [#578](https://github.com/ckeditor/ckeditor5-dev/issues/578). ([7cd687c](https://github.com/ckeditor/ckeditor5-dev/commit/7cd687c))
 
 
-## [17.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@16.9.0...@ckeditor/ckeditor5-dev-tests@17.0.0) (2019-11-21)
+## [17.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@16.9.0...@yproximite/ckeditor5-dev-tests@17.0.0) (2019-11-21)
 
 ### MAJOR BREAKING CHANGES
 
@@ -115,7 +115,7 @@ Internal changes only (updated dependencies, documentation, etc.).
 * Removed support for `--only-root`, `--include-root` and `--files=/` options. In order to run tests from the main repository, type `--files=ckeditor5`. Closes [#570](https://github.com/ckeditor/ckeditor5-dev/issues/570). ([586d272](https://github.com/ckeditor/ckeditor5-dev/commit/586d272))
 
 
-## [16.9.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@16.8.0...@ckeditor/ckeditor5-dev-tests@16.9.0) (2019-09-26)
+## [16.9.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@16.8.0...@yproximite/ckeditor5-dev-tests@16.9.0) (2019-09-26)
 
 ### Features
 
@@ -126,7 +126,7 @@ Internal changes only (updated dependencies, documentation, etc.).
 * Console is now patching methods only. Closes [#566](https://github.com/ckeditor/ckeditor5-dev/issues/566). ([867918f](https://github.com/ckeditor/ckeditor5-dev/commit/867918f))
 
 
-## [16.8.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@16.7.4...@ckeditor/ckeditor5-dev-tests@16.8.0) (2019-09-23)
+## [16.8.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@16.7.4...@yproximite/ckeditor5-dev-tests@16.8.0) (2019-09-23)
 
 ### Features
 
@@ -134,40 +134,40 @@ Internal changes only (updated dependencies, documentation, etc.).
 * Support for running manual tests from the main repository. See [ckeditor/ckeditor5#2054](https://github.com/ckeditor/ckeditor5/issues/2054). ([f4e639c](https://github.com/ckeditor/ckeditor5-dev/commit/f4e639c))
 
 
-## [16.7.4](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@16.7.3...@ckeditor/ckeditor5-dev-tests@16.7.4) (2019-09-10)
+## [16.7.4](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@16.7.3...@yproximite/ckeditor5-dev-tests@16.7.4) (2019-09-10)
 
 ### Bug fixes
 
 * Mr. Git will handle "ckeditor-" packages on CI. ([03b2bac](https://github.com/ckeditor/ckeditor5-dev/commit/03b2bac))
 
 
-## [16.7.3](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@16.7.2...@ckeditor/ckeditor5-dev-tests@16.7.3) (2019-09-10)
+## [16.7.3](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@16.7.2...@yproximite/ckeditor5-dev-tests@16.7.3) (2019-09-10)
 
 ### Bug fixes
 
 * Fixed a script that extracts a package name from a current testing package. Now it uses a regular expression and works with ckeditor- prefix as well. ([2b96d7c](https://github.com/ckeditor/ckeditor5-dev/commit/2b96d7c))
 
 
-## [16.7.2](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@16.7.1...@ckeditor/ckeditor5-dev-tests@16.7.2) (2019-09-09)
+## [16.7.2](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@16.7.1...@yproximite/ckeditor5-dev-tests@16.7.2) (2019-09-09)
 
 ### Other changes
 
 * Adjusted dev tools to work with "ckeditor-" prefix. See [ckeditor/ckeditor5#924](https://github.com/ckeditor/ckeditor5/issues/924). ([75b226f](https://github.com/ckeditor/ckeditor5-dev/commit/75b226f))
 
 
-## [16.7.1](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@16.7.0...@ckeditor/ckeditor5-dev-tests@16.7.1) (2019-08-14)
+## [16.7.1](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@16.7.0...@yproximite/ckeditor5-dev-tests@16.7.1) (2019-08-14)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
 
-## [16.7.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@16.6.0...@ckeditor/ckeditor5-dev-tests@16.7.0) (2019-08-12)
+## [16.7.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@16.6.0...@yproximite/ckeditor5-dev-tests@16.7.0) (2019-08-12)
 
 ### Features
 
 * Added support for debugging flags in automated and manual tests available via the `--debug` (`-d`) flag. Closes [ckeditor/ckeditor5#383](https://github.com/ckeditor/ckeditor5/issues/383). ([e55c8c2](https://github.com/ckeditor/ckeditor5-dev/commit/e55c8c2))
 
 
-## [16.6.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@16.5.0...@ckeditor/ckeditor5-dev-tests@16.6.0) (2019-08-09)
+## [16.6.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@16.5.0...@yproximite/ckeditor5-dev-tests@16.6.0) (2019-08-09)
 
 ### Features
 
@@ -178,28 +178,28 @@ Internal changes only (updated dependencies, documentation, etc.).
 * Forked repositories should be cloned properly on CI. Closes [#542](https://github.com/ckeditor/ckeditor5-dev/issues/542). ([84444de](https://github.com/ckeditor/ckeditor5-dev/commit/84444de))
 
 
-## [16.5.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@16.4.2...@ckeditor/ckeditor5-dev-tests@16.5.0) (2019-08-09)
+## [16.5.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@16.4.2...@yproximite/ckeditor5-dev-tests@16.5.0) (2019-08-09)
 
 ### Features
 
 * Added a proxy for static assets resources. Closes [#139](https://github.com/ckeditor/ckeditor5-dev/issues/139). ([5a47226](https://github.com/ckeditor/ckeditor5-dev/commit/5a47226))
 
 
-## [16.4.2](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@16.4.1...@ckeditor/ckeditor5-dev-tests@16.4.2) (2019-07-23)
+## [16.4.2](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@16.4.1...@yproximite/ckeditor5-dev-tests@16.4.2) (2019-07-23)
 
 ### Other changes
 
 * Adjusted repository, documentation and scripts to changes done in mgit/mrgit. See: [cksource/mgit2#85](https://github.com/cksource/mgit2/issues/85). ([8b4d08d](https://github.com/ckeditor/ckeditor5-dev/commit/8b4d08d))
 
 
-## [16.4.1](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@16.4.0...@ckeditor/ckeditor5-dev-tests@16.4.1) (2019-07-15)
+## [16.4.1](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@16.4.0...@yproximite/ckeditor5-dev-tests@16.4.1) (2019-07-15)
 
 ### Other changes
 
 * Upgraded dependencies for most of the packages. Merged Lerna + Yarn and they can work together now. Closes [#527](https://github.com/ckeditor/ckeditor5-dev/issues/527). Closes [#466](https://github.com/ckeditor/ckeditor5-dev/issues/466). ([dcc3215](https://github.com/ckeditor/ckeditor5-dev/commit/dcc3215))
 
 
-## [16.4.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@16.3.0...@ckeditor/ckeditor5-dev-tests@16.4.0) (2019-07-09)
+## [16.4.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@16.3.0...@yproximite/ckeditor5-dev-tests@16.4.0) (2019-07-09)
 
 ### Features
 
@@ -210,7 +210,7 @@ Internal changes only (updated dependencies, documentation, etc.).
 * Removed the BrowserStack integration from `ckeditor5-dev` repository. See [ckeditor/ckeditor5#1742](https://github.com/ckeditor/ckeditor5/issues/1742). ([a753590](https://github.com/ckeditor/ckeditor5-dev/commit/a753590))
 
 
-## [16.3.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@16.2.3...@ckeditor/ckeditor5-dev-tests@16.3.0) (2019-04-17)
+## [16.3.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@16.2.3...@yproximite/ckeditor5-dev-tests@16.3.0) (2019-04-17)
 
 ### Features
 
@@ -222,7 +222,7 @@ Internal changes only (updated dependencies, documentation, etc.).
 * Upgraded a version of Safari. Closes [#517](https://github.com/ckeditor/ckeditor5-dev/issues/517). ([eeb5819](https://github.com/ckeditor/ckeditor5-dev/commit/eeb5819))
 
 
-## [16.2.3](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@16.2.2...@ckeditor/ckeditor5-dev-tests@16.2.3) (2019-04-12)
+## [16.2.3](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@16.2.2...@yproximite/ckeditor5-dev-tests@16.2.3) (2019-04-12)
 
 ### Bug fixes
 
@@ -231,19 +231,19 @@ Internal changes only (updated dependencies, documentation, etc.).
 * List with dependency issues will be displayed in a more readable way. Closes [#512](https://github.com/ckeditor/ckeditor5-dev/issues/512). ([8a62270](https://github.com/ckeditor/ckeditor5-dev/commit/8a62270))
 
 
-## [16.2.2](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@16.2.1...@ckeditor/ckeditor5-dev-tests@16.2.2) (2019-04-04)
+## [16.2.2](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@16.2.1...@yproximite/ckeditor5-dev-tests@16.2.2) (2019-04-04)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
 
-## [16.2.1](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@16.2.0...@ckeditor/ckeditor5-dev-tests@16.2.1) (2019-03-28)
+## [16.2.1](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@16.2.0...@yproximite/ckeditor5-dev-tests@16.2.1) (2019-03-28)
 
 ### Other changes
 
 * Support for the "depcheckIgnore" key in "package.json" which defines a list of packages that should be ignored during dependency checking. ([9f5e037](https://github.com/ckeditor/ckeditor5-dev/commit/9f5e037))
 
 
-## [16.2.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@16.1.0...@ckeditor/ckeditor5-dev-tests@16.2.0) (2019-03-28)
+## [16.2.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@16.1.0...@yproximite/ckeditor5-dev-tests@16.2.0) (2019-03-28)
 
 ### Features
 
@@ -254,14 +254,14 @@ Internal changes only (updated dependencies, documentation, etc.).
 * Editor Inspector in manual tests should not crash when `window.editor` is set `null`. Closes [#502](https://github.com/ckeditor/ckeditor5-dev/issues/502). ([7ca8762](https://github.com/ckeditor/ckeditor5-dev/commit/7ca8762))
 
 
-## [16.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@16.0.1...@ckeditor/ckeditor5-dev-tests@16.1.0) (2019-02-28)
+## [16.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@16.0.1...@yproximite/ckeditor5-dev-tests@16.1.0) (2019-02-28)
 
 ### Features
 
 * Enabled ckeditor5-inspector in all manual tests. Closes [#489](https://github.com/ckeditor/ckeditor5-dev/issues/489). ([1b3f781](https://github.com/ckeditor/ckeditor5-dev/commit/1b3f781))
 
 
-## [16.0.1](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@16.0.0...@ckeditor/ckeditor5-dev-tests@16.0.1) (2019-02-28)
+## [16.0.1](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@16.0.0...@yproximite/ckeditor5-dev-tests@16.0.1) (2019-02-28)
 
 ### Bug fixes
 
@@ -270,7 +270,7 @@ Internal changes only (updated dependencies, documentation, etc.).
   Instead of testing the merge commit which does not exist in the git tree, it will use the latest commit from a branch that a user wants to merge.
 
 
-## [16.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@15.2.0...@ckeditor/ckeditor5-dev-tests@16.0.0) (2019-02-19)
+## [16.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@15.2.0...@yproximite/ckeditor5-dev-tests@16.0.0) (2019-02-19)
 
 ### Features
 
@@ -281,75 +281,75 @@ Internal changes only (updated dependencies, documentation, etc.).
 * Upgraded minimal versions of Node to `8.0.0` and npm to `5.7.1`. See: [ckeditor/ckeditor5#1507](https://github.com/ckeditor/ckeditor5/issues/1507). ([612ea3c](https://github.com/ckeditor/ckeditor5-cloud-services/commit/612ea3c))
 
 
-## [15.2.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@15.1.0...@ckeditor/ckeditor5-dev-tests@15.2.0) (2019-02-12)
+## [15.2.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@15.1.0...@yproximite/ckeditor5-dev-tests@15.2.0) (2019-02-12)
 
 ### Other changes
 
 * Enabled Content Security Policy settings in all manual tests (see [[ckeditor/ckeditor5#335](https://github.com/ckeditor/ckeditor5/issues/335)](https://github.com/ckeditor/ckeditor5/issues/335)). ([3b417c7](https://github.com/ckeditor/ckeditor5-dev/commit/3b417c7))
 
 
-## [15.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@15.0.3...@ckeditor/ckeditor5-dev-tests@15.1.0) (2019-01-17)
+## [15.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@15.0.3...@yproximite/ckeditor5-dev-tests@15.1.0) (2019-01-17)
 
 ### Other changes
 
 * Added the `'--js-flags="--expose-gc"'` flag to Karma Chrome launcher configuration. See [ckeditor/ckeditor5#1341](https://github.com/ckeditor/ckeditor5/issues/1341). ([f2c0d05](https://github.com/ckeditor/ckeditor5-dev/commit/f2c0d05))
 
 
-## [15.0.3](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@15.0.2...@ckeditor/ckeditor5-dev-tests@15.0.3) (2019-01-14)
+## [15.0.3](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@15.0.2...@yproximite/ckeditor5-dev-tests@15.0.3) (2019-01-14)
 
 ### Bug fixes
 
 * Link package inside its node_module's directory for tests. Closes [#470](https://github.com/ckeditor/ckeditor5-dev/issues/470). ([06dbb9f](https://github.com/ckeditor/ckeditor5-dev/commit/06dbb9f))
 
 
-## [15.0.2](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@15.0.1...@ckeditor/ckeditor5-dev-tests@15.0.2) (2019-01-14)
+## [15.0.2](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@15.0.1...@yproximite/ckeditor5-dev-tests@15.0.2) (2019-01-14)
 
 ### Bug fixes
 
 * The main repository should be added to yarn workspaces. Closes [ckeditor/ckeditor5-paragraph#39](https://github.com/ckeditor/ckeditor5-paragraph/issues/39). ([6a96700](https://github.com/ckeditor/ckeditor5-dev/commit/6a96700))
 
 
-## [15.0.1](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@15.0.0...@ckeditor/ckeditor5-dev-tests@15.0.1) (2019-01-11)
+## [15.0.1](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@15.0.0...@yproximite/ckeditor5-dev-tests@15.0.1) (2019-01-11)
 
 ### Bug fixes
 
 * Forgot to bump mgit2 itself. ([3f7a2b9](https://github.com/ckeditor/ckeditor5-dev/commit/3f7a2b9))
 
 
-## [15.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@14.1.0...@ckeditor/ckeditor5-dev-tests@15.0.0) (2019-01-11)
+## [15.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@14.1.0...@yproximite/ckeditor5-dev-tests@15.0.0) (2019-01-11)
 
 ### Other changes
 
 * Compatibility with `mgit2@0.10.0`. See [cksource/mgit2#82](https://github.com/cksource/mgit2/issues/82). ([b263242](https://github.com/ckeditor/ckeditor5-dev/commit/b263242))
 
 
-## [14.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@14.0.0...@ckeditor/ckeditor5-dev-tests@14.1.0) (2019-01-10)
+## [14.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@14.0.0...@yproximite/ckeditor5-dev-tests@14.1.0) (2019-01-10)
 
 ### Other changes
 
 * Compatibility with Node 10. ([9e47285](https://github.com/ckeditor/ckeditor5-dev/commit/9e47285))
 
 
-## [14.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@13.1.2...@ckeditor/ckeditor5-dev-tests@14.0.0) (2019-01-10)
+## [14.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@13.1.2...@yproximite/ckeditor5-dev-tests@14.0.0) (2019-01-10)
 
 ### Other changes
 
-* Changed scripts in the `@ckeditor/ckeditor5-dev-tests` package after switching development environment to Yarn. See [ckeditor/ckeditor5#1214](https://github.com/ckeditor/ckeditor5/issues/1214). ([18b0dd0](https://github.com/ckeditor/ckeditor5-dev/commit/18b0dd0))
+* Changed scripts in the `@yproximite/ckeditor5-dev-tests` package after switching development environment to Yarn. See [ckeditor/ckeditor5#1214](https://github.com/ckeditor/ckeditor5/issues/1214). ([18b0dd0](https://github.com/ckeditor/ckeditor5-dev/commit/18b0dd0))
 
 
-## [13.1.2](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@13.1.1...@ckeditor/ckeditor5-dev-tests@13.1.2) (2018-12-19)
+## [13.1.2](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@13.1.1...@yproximite/ckeditor5-dev-tests@13.1.2) (2018-12-19)
 
 ### Other changes
 
 * Enforce Edge 17 in BrowserStack tests. ([56ae7d3](https://github.com/ckeditor/ckeditor5-dev/commit/56ae7d3))
 
 
-## [13.1.1](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@13.1.0...@ckeditor/ckeditor5-dev-tests@13.1.1) (2018-11-22)
+## [13.1.1](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@13.1.0...@yproximite/ckeditor5-dev-tests@13.1.1) (2018-11-22)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
 
-## [13.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@13.0.3...@ckeditor/ckeditor5-dev-tests@13.1.0) (2018-11-05)
+## [13.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@13.0.3...@yproximite/ckeditor5-dev-tests@13.1.0) (2018-11-05)
 
 ### Features
 
@@ -360,51 +360,51 @@ Internal changes only (updated dependencies, documentation, etc.).
 * The `.rtf` files are now loaded via `raw-loader`. Closes [#448](https://github.com/ckeditor/ckeditor5-dev/issues/448). ([769cec0](https://github.com/ckeditor/ckeditor5-dev/commit/769cec0))
 
 
-## [13.0.3](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@13.0.2...@ckeditor/ckeditor5-dev-tests@13.0.3) (2018-10-02)
+## [13.0.3](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@13.0.2...@yproximite/ckeditor5-dev-tests@13.0.3) (2018-10-02)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
 
-## [13.0.2](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@13.0.1...@ckeditor/ckeditor5-dev-tests@13.0.2) (2018-09-24)
+## [13.0.2](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@13.0.1...@yproximite/ckeditor5-dev-tests@13.0.2) (2018-09-24)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
 
-## [13.0.1](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@13.0.0...@ckeditor/ckeditor5-dev-tests@13.0.1) (2018-09-14)
+## [13.0.1](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@13.0.0...@yproximite/ckeditor5-dev-tests@13.0.1) (2018-09-14)
 
 ### Bug fixes
 
 * Disabled "save-revision" script for pull requests builds. Closes [#434](https://github.com/ckeditor/ckeditor5-dev/issues/434). ([d02b04a](https://github.com/ckeditor/ckeditor5-dev/commit/d02b04a))
 
 
-## [13.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@12.1.3...@ckeditor/ckeditor5-dev-tests@13.0.0) (2018-08-23)
+## [13.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@12.1.3...@yproximite/ckeditor5-dev-tests@13.0.0) (2018-08-23)
 
 Updated required Node.js version to `>=6.9.0`.
 
 
-## [12.1.3](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@12.1.2...@ckeditor/ckeditor5-dev-tests@12.1.3) (2018-08-23)
+## [12.1.3](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@12.1.2...@yproximite/ckeditor5-dev-tests@12.1.3) (2018-08-23)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
 
-## [12.1.2](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@12.1.1...@ckeditor/ckeditor5-dev-tests@12.1.2) (2018-07-17)
+## [12.1.2](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@12.1.1...@yproximite/ckeditor5-dev-tests@12.1.2) (2018-07-17)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
 
-## [12.1.1](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@12.1.0...@ckeditor/ckeditor5-dev-tests@12.1.1) (2018-07-17)
+## [12.1.1](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@12.1.0...@yproximite/ckeditor5-dev-tests@12.1.1) (2018-07-17)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
 
-## [12.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@12.0.0...@ckeditor/ckeditor5-dev-tests@12.1.0) (2018-07-12)
+## [12.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@12.0.0...@yproximite/ckeditor5-dev-tests@12.1.0) (2018-07-12)
 
 ### Features
 
 * Grouped manual tests in the list. Slightly redesigned the manual test index. Closes [#422](https://github.com/ckeditor/ckeditor5-dev/issues/422). ([9744296](https://github.com/ckeditor/ckeditor5-dev/commit/9744296))
 
 
-## [12.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@11.0.3...@ckeditor/ckeditor5-dev-tests@12.0.0) (2018-07-05)
+## [12.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@11.0.3...@yproximite/ckeditor5-dev-tests@12.0.0) (2018-07-05)
 
 ### Other changes
 
@@ -415,26 +415,26 @@ Internal changes only (updated dependencies, documentation, etc.).
 * This package requires `webpack@4`.
 
 
-## [11.0.3](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@11.0.2...@ckeditor/ckeditor5-dev-tests@11.0.3) (2018-06-28)
+## [11.0.3](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@11.0.2...@yproximite/ckeditor5-dev-tests@11.0.3) (2018-06-28)
 
 ### Bug fixes
 
 * The Script for saving revisions will correctly and fully synchronise `master-revisions` with `master`. Closes [#375](https://github.com/ckeditor/ckeditor5-dev/issues/375). ([9009c12](https://github.com/ckeditor/ckeditor5-dev/commit/9009c12))
 
 
-## [11.0.2](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@11.0.1...@ckeditor/ckeditor5-dev-tests@11.0.2) (2018-06-20)
+## [11.0.2](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@11.0.1...@yproximite/ckeditor5-dev-tests@11.0.2) (2018-06-20)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
 
-## [11.0.1](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@11.0.0...@ckeditor/ckeditor5-dev-tests@11.0.1) (2018-05-04)
+## [11.0.1](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@11.0.0...@yproximite/ckeditor5-dev-tests@11.0.1) (2018-05-04)
 
 ### Bug fixes
 
 * Browsers that require BrowserStack service will not be used in PRs that come from the community. Closes [#402](https://github.com/ckeditor/ckeditor5-dev/issues/402). ([f416819](https://github.com/ckeditor/ckeditor5-dev/commit/f416819))
 
 
-## [11.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@10.3.5...@ckeditor/ckeditor5-dev-tests@11.0.0) (2018-04-25)
+## [11.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@10.3.5...@yproximite/ckeditor5-dev-tests@11.0.0) (2018-04-25)
 
 ### Other changes
 
@@ -445,50 +445,50 @@ Internal changes only (updated dependencies, documentation, etc.).
 * The license under which CKEditor 5 is released has been changed from a triple GPL, LGPL and MPL license to GPL2+ only. See [ckeditor/ckeditor5#991](https://github.com/ckeditor/ckeditor5/issues/991) for more information.
 
 
-## [10.3.5](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@10.3.3...@ckeditor/ckeditor5-dev-tests@10.3.5) (2018-04-11)
+## [10.3.5](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@10.3.3...@yproximite/ckeditor5-dev-tests@10.3.5) (2018-04-11)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
 
-## [10.3.3](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@10.3.2...@ckeditor/ckeditor5-dev-tests@10.3.3) (2018-03-27)
+## [10.3.3](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@10.3.2...@yproximite/ckeditor5-dev-tests@10.3.3) (2018-03-27)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
 
-## [10.3.2](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@10.3.0...@ckeditor/ckeditor5-dev-tests@10.3.2) (2018-03-22)
+## [10.3.2](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@10.3.0...@yproximite/ckeditor5-dev-tests@10.3.2) (2018-03-22)
 
 ### Bug fixes
 
 * Manual tests server should work when CKEditor 5's development repository is located in a path which contains `ckeditor5-` fragment. Closes [#351](https://github.com/ckeditor/ckeditor5-dev/issues/351). Closes [#381](https://github.com/ckeditor/ckeditor5-dev/issues/381). ([ec82d7a](https://github.com/ckeditor/ckeditor5-dev/commit/ec82d7a))
 
 
-## [10.3.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@10.2.3...@ckeditor/ckeditor5-dev-tests@10.3.0) (2018-02-21)
+## [10.3.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@10.2.3...@yproximite/ckeditor5-dev-tests@10.3.0) (2018-02-21)
 
 ### Features
 
 * Implemented a responsive manual test layout with a 'back' button. Improved readability of the sidebar. Closes [#369](https://github.com/ckeditor/ckeditor5-dev/issues/369). ([edf9e15](https://github.com/ckeditor/ckeditor5-dev/commit/edf9e15))
 
 
-## [10.2.3](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@10.2.1...@ckeditor/ckeditor5-dev-tests@10.2.3) (2018-02-13)
+## [10.2.3](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@10.2.1...@yproximite/ckeditor5-dev-tests@10.2.3) (2018-02-13)
 
 ### Bug fixes
 
 * BrowserStack will be disabled for PR builds that come from the community. Closes [#358](https://github.com/ckeditor/ckeditor5-dev/issues/358). ([b4f98ac](https://github.com/ckeditor/ckeditor5-dev/commit/b4f98ac))
 
 
-## [10.2.1](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@10.2.0...@ckeditor/ckeditor5-dev-tests@10.2.1) (2018-01-22)
+## [10.2.1](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@10.2.0...@yproximite/ckeditor5-dev-tests@10.2.1) (2018-01-22)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
 
-## [10.2.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@10.1.0...@ckeditor/ckeditor5-dev-tests@10.2.0) (2017-12-21)
+## [10.2.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@10.1.0...@yproximite/ckeditor5-dev-tests@10.2.0) (2017-12-21)
 
 ### Other changes
 
 * Switched from CodeClimate to Coveralls. Closes [#348](https://github.com/ckeditor/ckeditor5-dev/issues/348). ([2238b04](https://github.com/ckeditor/ckeditor5-dev/commit/2238b04))
 
 
-## [10.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@10.0.5...@ckeditor/ckeditor5-dev-tests@10.1.0) (2017-12-20)
+## [10.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@10.0.5...@yproximite/ckeditor5-dev-tests@10.1.0) (2017-12-20)
 
 ### Features
 
@@ -504,39 +504,39 @@ Internal changes only (updated dependencies, documentation, etc.).
 * In order to execute tests using BrowserStack, you need to call `BROWSER_STACK_USERNAME=[...] BROWSER_STACK_ACCESS_KEY=[...] npm test -- --browsers=[...]`.
 
 
-## [10.0.5](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@10.0.4...@ckeditor/ckeditor5-dev-tests@10.0.5) (2017-12-01)
+## [10.0.5](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@10.0.4...@yproximite/ckeditor5-dev-tests@10.0.5) (2017-12-01)
 
 ### Bug fixes
 
 * Reverting Friday's mistake v2. Closes [#320](https://github.com/ckeditor/ckeditor5-dev/issues/320). ([ee8fdc5](https://github.com/ckeditor/ckeditor5-dev/commit/ee8fdc5))
 
 
-## [10.0.4](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@10.0.3...@ckeditor/ckeditor5-dev-tests@10.0.4) (2017-12-01)
+## [10.0.4](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@10.0.3...@yproximite/ckeditor5-dev-tests@10.0.4) (2017-12-01)
 
 ### Bug fixes
 
 * Reverting Friday's mistake. ([7443782](https://github.com/ckeditor/ckeditor5-dev/commit/7443782))
 
 
-## [10.0.3](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@10.0.0...@ckeditor/ckeditor5-dev-tests@10.0.3) (2017-12-01)
+## [10.0.3](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@10.0.0...@yproximite/ckeditor5-dev-tests@10.0.3) (2017-12-01)
 
 ### Bug fixes
 
 * Increase available memory for all tests. Closes [#320](https://github.com/ckeditor/ckeditor5-dev/issues/320). ([208f656](https://github.com/ckeditor/ckeditor5-dev/commit/208f656))
 
 
-## [10.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@9.2.0...@ckeditor/ckeditor5-dev-tests@10.0.0) (2017-11-30)
+## [10.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@9.2.0...@yproximite/ckeditor5-dev-tests@10.0.0) (2017-11-30)
 
 ### Features
 
 * Added support for multiple themes in output builds. Migrated various utilities from SASS to PostCSS. Closes [#321](https://github.com/ckeditor/ckeditor5-dev/issues/321). ([908e3af](https://github.com/ckeditor/ckeditor5-dev/commit/908e3af))
 
 
-## [9.2.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@9.1.0...@ckeditor/ckeditor5-dev-tests@9.2.0) (2017-11-24)
+## [9.2.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@9.1.0...@yproximite/ckeditor5-dev-tests@9.2.0) (2017-11-24)
 
 Reverted the fix for [#290](https://github.com/ckeditor/ckeditor5-dev/issues/290). ([5c3d9ec](https://github.com/ckeditor/ckeditor5-dev/commit/5c3d9ec))
 
-## [9.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@9.0.0...@ckeditor/ckeditor5-dev-tests@9.1.0) (2017-11-24)
+## [9.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@9.0.0...@yproximite/ckeditor5-dev-tests@9.1.0) (2017-11-24)
 
 ### Features
 
@@ -549,7 +549,7 @@ Reverted the fix for [#290](https://github.com/ckeditor/ckeditor5-dev/issues/290
 * Webpack SVG loader will work properly on Windows machines. Closes [#323](https://github.com/ckeditor/ckeditor5-dev/issues/323). ([652849e](https://github.com/ckeditor/ckeditor5-dev/commit/652849e))
 
 
-## [9.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@8.2.5...@ckeditor/ckeditor5-dev-tests@9.0.0) (2017-11-13)
+## [9.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@8.2.5...@yproximite/ckeditor5-dev-tests@9.0.0) (2017-11-13)
 
 ### Other changes
 
@@ -567,63 +567,63 @@ Reverted the fix for [#290](https://github.com/ckeditor/ckeditor5-dev/issues/290
 * Gulp tasks were removed. New npm scripts were introduced.
 
 
-## [8.2.5](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@8.2.2...@ckeditor/ckeditor5-dev-tests@8.2.5) (2017-11-10)
+## [8.2.5](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@8.2.2...@yproximite/ckeditor5-dev-tests@8.2.5) (2017-11-10)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
-## [8.2.2](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@8.2.1...@ckeditor/ckeditor5-dev-tests@8.2.2) (2017-10-01)
+## [8.2.2](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@8.2.1...@yproximite/ckeditor5-dev-tests@8.2.2) (2017-10-01)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
-## [8.2.1](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@8.2.0...@ckeditor/ckeditor5-dev-tests@8.2.1) (2017-09-22)
+## [8.2.1](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@8.2.0...@yproximite/ckeditor5-dev-tests@8.2.1) (2017-09-22)
 
 ### Bug fixes
 
 * Dependency checker will warn about non-relative links to itself. Closes [#282](https://github.com/ckeditor/ckeditor5-dev/issues/282). ([36d64e7](https://github.com/ckeditor/ckeditor5-dev/commit/36d64e7))
 
 
-## [8.2.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@8.1.0...@ckeditor/ckeditor5-dev-tests@8.2.0) (2017-09-15)
+## [8.2.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@8.1.0...@yproximite/ckeditor5-dev-tests@8.2.0) (2017-09-15)
 
 ### Features
 
 * Introduced "dependency-checker" which allows validating whether used dependencies are specified in `package.json`. Closes [#278](https://github.com/ckeditor/ckeditor5-dev/issues/278). ([9574a97](https://github.com/ckeditor/ckeditor5-dev/commit/9574a97))
 
 
-## [8.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@8.0.2...@ckeditor/ckeditor5-dev-tests@8.1.0) (2017-09-01)
+## [8.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@8.0.2...@yproximite/ckeditor5-dev-tests@8.1.0) (2017-09-01)
 
 ### Features
 
 * Other support for importing CSS files in manual tests. Closes [#267](https://github.com/ckeditor/ckeditor5-dev/issues/267). ([be4d3af](https://github.com/ckeditor/ckeditor5-dev/commit/be4d3af))
 
 
-## [8.0.2](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@8.0.0...@ckeditor/ckeditor5-dev-tests@8.0.2) (2017-08-18)
+## [8.0.2](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@8.0.0...@yproximite/ckeditor5-dev-tests@8.0.2) (2017-08-18)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
-## [8.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@7.5.0...@ckeditor/ckeditor5-dev-tests@8.0.0) (2017-08-09)
+## [8.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@7.5.0...@yproximite/ckeditor5-dev-tests@8.0.0) (2017-08-09)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
 
-## [7.5.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@7.4.7...@ckeditor/ckeditor5-dev-tests@7.5.0) (2017-07-18)
+## [7.5.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@7.4.7...@yproximite/ckeditor5-dev-tests@7.5.0) (2017-07-18)
 
 ### Features
 
 * The `create-mgit-json` script will now use the hashes of dependencies defined in `package.json`. Closes [#243](https://github.com/ckeditor/ckeditor5-dev/issues/243). ([908c0d6](https://github.com/ckeditor/ckeditor5-dev/commit/908c0d6))
 
 
-## [7.4.7](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@7.4.4...@ckeditor/ckeditor5-dev-tests@7.4.7) (2017-06-14)
+## [7.4.7](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@7.4.4...@yproximite/ckeditor5-dev-tests@7.4.7) (2017-06-14)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
-## [7.4.4](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@7.4.3...@ckeditor/ckeditor5-dev-tests@7.4.4) (2017-05-17)
+## [7.4.4](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@7.4.3...@yproximite/ckeditor5-dev-tests@7.4.4) (2017-05-17)
 
 ### Bug fixes
 
 * The `packages/` dir needs to be ignored when cloning subpackages on Travis. Closes [#203](https://github.com/ckeditor/ckeditor5-dev/issues/203). ([0b4080f](https://github.com/ckeditor/ckeditor5-dev/commit/0b4080f))
 
 
-## [7.4.3](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@7.4.2...@ckeditor/ckeditor5-dev-tests@7.4.3) (2017-05-16)
+## [7.4.3](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@7.4.2...@yproximite/ckeditor5-dev-tests@7.4.3) (2017-05-16)
 
 ### Bug fixes
 
@@ -634,7 +634,7 @@ Internal changes only (updated dependencies, documentation, etc.).
 Internal changes only (updated dependencies, documentation, etc.).
 
 
-## [7.4.1](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-tests@7.4.0...@ckeditor/ckeditor5-dev-tests@7.4.1) (2017-04-27)
+## [7.4.1](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-tests@7.4.0...@yproximite/ckeditor5-dev-tests@7.4.1) (2017-04-27)
 
 Internal changes only (updated dependencies, documentation, etc.).
 

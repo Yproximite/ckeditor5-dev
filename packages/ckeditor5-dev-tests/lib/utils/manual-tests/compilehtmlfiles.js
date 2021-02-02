@@ -14,7 +14,7 @@ const chalk = require( 'chalk' );
 const commonmark = require( 'commonmark' );
 const combine = require( 'dom-combiner' );
 const chokidar = require( 'chokidar' );
-const { logger } = require( '@ckeditor/ckeditor5-dev-utils' );
+const { logger } = require( '@yproximite/ckeditor5-dev-utils' );
 const getRelativeFilePath = require( '../getrelativefilepath' );
 const globSync = require( '../glob' );
 

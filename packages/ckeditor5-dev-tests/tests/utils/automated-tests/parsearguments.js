@@ -30,7 +30,7 @@ describe( 'parseArguments()', () => {
 		};
 
 		parseArguments = proxyquire( '../../../lib/utils/automated-tests/parsearguments', {
-			'@ckeditor/ckeditor5-dev-utils': {
+			'@yproximite/ckeditor5-dev-utils': {
 				logger() {
 					return stubs.logger;
 				},

@@ -22,7 +22,7 @@ describe( 'webpack-plugin/CKEditorWebpackPlugin', () => {
 
 		CKEditorWebpackPlugin = proxyquire( '../lib/index', {
 			'./servetranslations': stubs.serveTranslations,
-			'@ckeditor/ckeditor5-dev-utils/lib/translations/multiplelanguagetranslationservice': stubs.MultipleLanguageTranslationService
+			'@yproximite/ckeditor5-dev-utils/lib/translations/multiplelanguagetranslationservice': stubs.MultipleLanguageTranslationService
 		} );
 
 		sandbox.stub( console, 'warn' );

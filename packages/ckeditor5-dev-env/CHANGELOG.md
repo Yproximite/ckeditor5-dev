@@ -5,7 +5,7 @@ All changes in the package are documented in the main repository. See: https://g
 
 Changes for the past releases are available below.
 
-## [18.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@17.1.4...@ckeditor/ckeditor5-dev-env@18.0.0) (2020-04-23)
+## [18.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@17.1.4...@yproximite/ckeditor5-dev-env@18.0.0) (2020-04-23)
 
 ### BREAKING CHANGES
 
@@ -17,38 +17,38 @@ Changes for the past releases are available below.
 * Introduced support for plural translation forms. Closes [ckeditor/ckeditor5#6526](https://github.com/ckeditor/ckeditor5/issues/6526). Closes [ckeditor/ckeditor5#988](https://github.com/ckeditor/ckeditor5/issues/988). ([305590e](https://github.com/ckeditor/ckeditor5-dev/commit/305590e))
 
 
-## [17.1.4](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@17.1.3...@ckeditor/ckeditor5-dev-env@17.1.4) (2020-02-26)
+## [17.1.4](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@17.1.3...@yproximite/ckeditor5-dev-env@17.1.4) (2020-02-26)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
 
-## [17.1.3](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@17.1.2...@ckeditor/ckeditor5-dev-env@17.1.3) (2020-02-14)
+## [17.1.3](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@17.1.2...@yproximite/ckeditor5-dev-env@17.1.3) (2020-02-14)
 
 ### Bug fixes
 
 * Fixed handling of the " character in translation messages and contexts. Closes [#523](https://github.com/ckeditor/ckeditor5-dev/issues/523). ([1d2da09](https://github.com/ckeditor/ckeditor5-dev/commit/1d2da09))
 
 
-## [17.1.2](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@17.1.1...@ckeditor/ckeditor5-dev-env@17.1.2) (2020-01-27)
+## [17.1.2](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@17.1.1...@yproximite/ckeditor5-dev-env@17.1.2) (2020-01-27)
 
 ### Bug fixes
 
 * Switched to a fork of JSDoc with version 3.4.3 patched to be compatible with NodeJS 12. Also, bumped chalk library to fix thrown error. Closes [#525](https://github.com/ckeditor/ckeditor5-dev/issues/525). ([a7599ba](https://github.com/ckeditor/ckeditor5-dev/commit/a7599ba))
 
 
-## [17.1.1](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@17.1.0...@ckeditor/ckeditor5-dev-env@17.1.1) (2020-01-09)
+## [17.1.1](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@17.1.0...@yproximite/ckeditor5-dev-env@17.1.1) (2020-01-09)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
 
-## [17.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@17.0.0...@ckeditor/ckeditor5-dev-env@17.1.0) (2019-12-04)
+## [17.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@17.0.0...@yproximite/ckeditor5-dev-env@17.1.0) (2019-12-04)
 
 ### Features
 
 * Introduced several improvements for `generateSummaryChangelog()` and `generateChangelogForSubRepositories()` tasks. Closes [#571](https://github.com/ckeditor/ckeditor5-dev/issues/571). ([ec6282f](https://github.com/ckeditor/ckeditor5-dev/commit/ec6282f))
 
 
-## [17.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@16.0.0...@ckeditor/ckeditor5-dev-env@17.0.0) (2019-10-22)
+## [17.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@16.0.0...@yproximite/ckeditor5-dev-env@17.0.0) (2019-10-22)
 
 ### MAJOR BREAKING CHANGES
 
@@ -75,7 +75,7 @@ Internal changes only (updated dependencies, documentation, etc.).
   - `transformCommitForSubPackage()` and `transformCommitForSubRepository()` are "factories" now. They return a new function that parses the commit. See the "BREAKING CHANGES" section.
 
 
-## [16.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@15.0.3...@ckeditor/ckeditor5-dev-env@16.0.0) (2019-08-26)
+## [16.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@15.0.3...@yproximite/ckeditor5-dev-env@16.0.0) (2019-08-26)
 
 ### Other changes
 
@@ -86,28 +86,28 @@ Internal changes only (updated dependencies, documentation, etc.).
 * Due to merging our issue trackers, pkgJson.bugs will point to the same place for every package. We cannot rely on this value anymore. See [ckeditor/ckeditor5#1988](https://github.com/ckeditor/ckeditor5/issues/1988). Instead of we can take a value from pkgJson.repository and adjust it to match to our requirements.
 
 
-## [15.0.3](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@15.0.2...@ckeditor/ckeditor5-dev-env@15.0.3) (2019-07-23)
+## [15.0.3](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@15.0.2...@yproximite/ckeditor5-dev-env@15.0.3) (2019-07-23)
 
 ### Other changes
 
 * Adjusted repository, documentation and scripts to changes done in mgit/mrgit. See: [cksource/mgit2#85](https://github.com/cksource/mgit2/issues/85). ([8b4d08d](https://github.com/ckeditor/ckeditor5-dev/commit/8b4d08d))
 
 
-## [15.0.2](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@15.0.1...@ckeditor/ckeditor5-dev-env@15.0.2) (2019-07-16)
+## [15.0.2](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@15.0.1...@yproximite/ckeditor5-dev-env@15.0.2) (2019-07-16)
 
 ### Bug fixes
 
 * Adjusted usage of GitHub API inside createGithubRelease() util. Closes [ckeditor/ckeditor5#1889](https://github.com/ckeditor/ckeditor5/issues/1889). ([d9befaf](https://github.com/ckeditor/ckeditor5-dev/commit/d9befaf))
 
 
-## [15.0.1](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@15.0.0...@ckeditor/ckeditor5-dev-env@15.0.1) (2019-07-16)
+## [15.0.1](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@15.0.0...@yproximite/ckeditor5-dev-env@15.0.1) (2019-07-16)
 
 ### Bug fixes
 
 * Adjusted usage of GitHub API to the latest version. All API's methods return an instance of Promise instead of requiring a callback as the last parameter. Closes [ckeditor/ckeditor5#1889](https://github.com/ckeditor/ckeditor5/issues/1889). ([486f732](https://github.com/ckeditor/ckeditor5-dev/commit/486f732))
 
 
-## [15.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@14.1.2...@ckeditor/ckeditor5-dev-env@15.0.0) (2019-07-15)
+## [15.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@14.1.2...@yproximite/ckeditor5-dev-env@15.0.0) (2019-07-15)
 
 ### Features
 
@@ -116,7 +116,7 @@ Internal changes only (updated dependencies, documentation, etc.).
   In order to release a single repository, first, you need to bump its version. Then you will be able to publish changes. For bumping version, you can use the following code:
 
   ```js
-  require( '@ckeditor/ckeditor5-dev-env' )
+  require( '@yproximite/ckeditor5-dev-env' )
   	.bumpVersions( {
   		cwd: process.cwd(),
   		packages: null, // <-- It means that you want to call the script for single package.
@@ -127,7 +127,7 @@ Internal changes only (updated dependencies, documentation, etc.).
   For publishing changes:
 
   ```js
-  require( '@ckeditor/ckeditor5-dev-env' )
+  require( '@yproximite/ckeditor5-dev-env' )
   	.releaseSubRepositories( {
   		cwd: process.cwd(),
   		packages: null, // <-- It means that you want to call the script for single package.
@@ -142,21 +142,21 @@ Internal changes only (updated dependencies, documentation, etc.).
 * `tasks.releaseRepository()` has been removed. Use `tasks.bumpVersions()` and `tasks.releaseSubRepositories()` instead.
 
 
-## [14.1.2](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@14.1.1...@ckeditor/ckeditor5-dev-env@14.1.2) (2019-07-15)
+## [14.1.2](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@14.1.1...@yproximite/ckeditor5-dev-env@14.1.2) (2019-07-15)
 
 ### Other changes
 
 * Upgraded dependencies for most of the packages. Merged Lerna + Yarn and they can work together now. Closes [#527](https://github.com/ckeditor/ckeditor5-dev/issues/527). Closes [#466](https://github.com/ckeditor/ckeditor5-dev/issues/466). ([dcc3215](https://github.com/ckeditor/ckeditor5-dev/commit/dcc3215))
 
 
-## [14.1.1](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@14.1.0...@ckeditor/ckeditor5-dev-env@14.1.1) (2019-04-04)
+## [14.1.1](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@14.1.0...@yproximite/ckeditor5-dev-env@14.1.1) (2019-04-04)
 
 ### Bug fixes
 
 * Release tool will not crash when publishing a package for the first time. Closes [#491](https://github.com/ckeditor/ckeditor5-dev/issues/491). ([fcc875d](https://github.com/ckeditor/ckeditor5-dev/commit/fcc875d))
 
 
-## [14.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@14.0.1...@ckeditor/ckeditor5-dev-env@14.1.0) (2019-03-28)
+## [14.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@14.0.1...@yproximite/ckeditor5-dev-env@14.1.0) (2019-03-28)
 
 ### Features
 
@@ -169,24 +169,24 @@ Internal changes only (updated dependencies, documentation, etc.).
 * Merge 'stable' branch commit will be ignored during generating the changelog. Closes [#487](https://github.com/ckeditor/ckeditor5-dev/issues/487). ([7a401ef](https://github.com/ckeditor/ckeditor5-dev/commit/7a401ef))
 
 
-## [14.0.1](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@14.0.0...@ckeditor/ckeditor5-dev-env@14.0.1) (2019-02-28)
+## [14.0.1](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@14.0.0...@yproximite/ckeditor5-dev-env@14.0.1) (2019-02-28)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
 
-## [14.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@13.0.3...@ckeditor/ckeditor5-dev-env@14.0.0) (2019-02-19)
+## [14.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@13.0.3...@yproximite/ckeditor5-dev-env@14.0.0) (2019-02-19)
 
 ### BREAKING CHANGES
 
 * Upgraded minimal versions of Node to `8.0.0` and npm to `5.7.1`. See: [ckeditor/ckeditor5#1507](https://github.com/ckeditor/ckeditor5/issues/1507). ([612ea3c](https://github.com/ckeditor/ckeditor5-cloud-services/commit/612ea3c))
 
 
-## [13.0.3](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@13.0.2...@ckeditor/ckeditor5-dev-env@13.0.3) (2019-02-12)
+## [13.0.3](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@13.0.2...@yproximite/ckeditor5-dev-env@13.0.3) (2019-02-12)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
 
-## [13.0.2](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@13.0.1...@ckeditor/ckeditor5-dev-env@13.0.2) (2018-11-22)
+## [13.0.2](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@13.0.1...@yproximite/ckeditor5-dev-env@13.0.2) (2018-11-22)
 
 ### Bug fixes
 
@@ -196,12 +196,12 @@ Internal changes only (updated dependencies, documentation, etc.).
     * Publishing a package for the first time on GitHub will work properly. It didn't work because GitHub API returned `Not Found` response and the tool couldn't understand it. See [#446](https://github.com/ckeditor/ckeditor5-dev/issues/446).
 
 
-## [13.0.1](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@13.0.0...@ckeditor/ckeditor5-dev-env@13.0.1) (2018-11-05)
+## [13.0.1](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@13.0.0...@yproximite/ckeditor5-dev-env@13.0.1) (2018-11-05)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
 
-## [13.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@12.0.2...@ckeditor/ckeditor5-dev-env@13.0.0) (2018-10-09)
+## [13.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@12.0.2...@yproximite/ckeditor5-dev-env@13.0.0) (2018-10-09)
 
 ### Features
 
@@ -229,29 +229,29 @@ BREAKNG CHANGES: `getSubRepositoriesPaths()` returns an object that contains two
 * `tasks.generateChangelogForSubRepositories()` accepts `skipMainRepository` option which is passed to `getSubRepositoriesPaths()` util. If `skipMainRepository` option is set on true, the package defined in `options.cwd` will be added as `skipped`, if on false, as `matched`.
 
 
-## [12.0.2](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@12.0.1...@ckeditor/ckeditor5-dev-env@12.0.2) (2018-10-02)
+## [12.0.2](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@12.0.1...@yproximite/ckeditor5-dev-env@12.0.2) (2018-10-02)
 
 ### Bug fixes
 
 * Generated a changelog for the first time will have a proper link (in a header). Closes [#430](https://github.com/ckeditor/ckeditor5-dev/issues/430). ([e68c35b](https://github.com/ckeditor/ckeditor5-dev/commit/e68c35b))
 
 
-## [12.0.1](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@12.0.0...@ckeditor/ckeditor5-dev-env@12.0.1) (2018-09-24)
+## [12.0.1](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@12.0.0...@yproximite/ckeditor5-dev-env@12.0.1) (2018-09-24)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
 
-## [12.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@11.1.1...@ckeditor/ckeditor5-dev-env@12.0.0) (2018-08-23)
+## [12.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@11.1.1...@yproximite/ckeditor5-dev-env@12.0.0) (2018-08-23)
 
 Updated required Node.js version to `>=6.9.0`.
 
 
-## [11.1.1](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@11.1.0...@ckeditor/ckeditor5-dev-env@11.1.1) (2018-07-17)
+## [11.1.1](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@11.1.0...@yproximite/ckeditor5-dev-env@11.1.1) (2018-07-17)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
 
-## [11.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@11.0.0...@ckeditor/ckeditor5-dev-env@11.1.0) (2018-07-17)
+## [11.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@11.0.0...@yproximite/ckeditor5-dev-env@11.1.0) (2018-07-17)
 
 ### Features
 
@@ -266,7 +266,7 @@ Internal changes only (updated dependencies, documentation, etc.).
     - every called command will be displayed.
 
 
-## [11.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@10.0.0...@ckeditor/ckeditor5-dev-env@11.0.0) (2018-07-05)
+## [11.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@10.0.0...@yproximite/ckeditor5-dev-env@11.0.0) (2018-07-05)
 
 ### Other changes
 
@@ -277,7 +277,7 @@ Internal changes only (updated dependencies, documentation, etc.).
 * This package requires `webpack@4`.
 
 
-## [10.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@9.0.3...@ckeditor/ckeditor5-dev-env@10.0.0) (2018-06-28)
+## [10.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@9.0.3...@yproximite/ckeditor5-dev-env@10.0.0) (2018-06-28)
 
 ### Features
 
@@ -288,17 +288,17 @@ Internal changes only (updated dependencies, documentation, etc.).
 * An optional parameter `newVersion` for `generateChangelogForSinglePackage()` method has been replaced with an `options` object (of which it is a key).
 
 
-## [9.0.3](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@9.0.1...@ckeditor/ckeditor5-dev-env@9.0.3) (2018-06-28)
+## [9.0.3](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@9.0.1...@yproximite/ckeditor5-dev-env@9.0.3) (2018-06-28)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
 
-## [9.0.1](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@9.0.0...@ckeditor/ckeditor5-dev-env@9.0.1) (2018-05-04)
+## [9.0.1](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@9.0.0...@yproximite/ckeditor5-dev-env@9.0.1) (2018-05-04)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
 
-## [9.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@8.0.9...@ckeditor/ckeditor5-dev-env@9.0.0) (2018-04-25)
+## [9.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@8.0.9...@yproximite/ckeditor5-dev-env@9.0.0) (2018-04-25)
 
 ### Bug fixes
 
@@ -314,45 +314,45 @@ Internal changes only (updated dependencies, documentation, etc.).
 * The license under which CKEditor 5 is released has been changed from a triple GPL, LGPL and MPL license to GPL2+ only. See [ckeditor/ckeditor5#991](https://github.com/ckeditor/ckeditor5/issues/991) for more information.
 
 
-## [8.0.9](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@8.0.8...@ckeditor/ckeditor5-dev-env@8.0.9) (2018-04-10)
+## [8.0.9](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@8.0.8...@yproximite/ckeditor5-dev-env@8.0.9) (2018-04-10)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
 
-## [8.0.8](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@8.0.7...@ckeditor/ckeditor5-dev-env@8.0.8) (2018-03-27)
+## [8.0.8](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@8.0.7...@yproximite/ckeditor5-dev-env@8.0.8) (2018-03-27)
 
 ### Bug fixes
 
 * An invalid parameter was passed to the logger and it caused that logs were displayed incorrectly. Closes [#380](https://github.com/ckeditor/ckeditor5-dev/issues/380). ([27aaa13](https://github.com/ckeditor/ckeditor5-dev/commit/27aaa13))
 
 
-## [8.0.7](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@8.0.5...@ckeditor/ckeditor5-dev-env@8.0.7) (2018-03-22)
+## [8.0.7](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@8.0.5...@yproximite/ckeditor5-dev-env@8.0.7) (2018-03-22)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
 
-## [8.0.5](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@8.0.4...@ckeditor/ckeditor5-dev-env@8.0.5) (2018-01-22)
+## [8.0.5](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@8.0.4...@yproximite/ckeditor5-dev-env@8.0.5) (2018-01-22)
 
 ### Bug fixes
 
 * Translation utils will now add correct license headers. ([c054c17](https://github.com/ckeditor/ckeditor5-dev/commit/c054c17))
 
 
-## [8.0.4](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@8.0.0...@ckeditor/ckeditor5-dev-env@8.0.4) (2017-12-20)
+## [8.0.4](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@8.0.0...@yproximite/ckeditor5-dev-env@8.0.4) (2017-12-20)
 
 ### Bug fixes
 
 * Additional notes will be removed from commit's footer. Closes [#341](https://github.com/ckeditor/ckeditor5-dev/issues/341). ([95bcfd8](https://github.com/ckeditor/ckeditor5-dev/commit/95bcfd8))
 
 
-## [8.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@7.0.1...@ckeditor/ckeditor5-dev-env@8.0.0) (2017-11-30)
+## [8.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@7.0.1...@yproximite/ckeditor5-dev-env@8.0.0) (2017-11-30)
 
 ### Features
 
 * `TranslationService` v2. Closes [ckeditor/ckeditor5#666](https://github.com/ckeditor/ckeditor5/issues/666). Closes [ckeditor/ckeditor5#624](https://github.com/ckeditor/ckeditor5/issues/624). ([ee2a1d2](https://github.com/ckeditor/ckeditor5-dev/commit/ee2a1d2))
 
 
-## [7.0.1](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@7.0.0...@ckeditor/ckeditor5-dev-env@7.0.1) (2017-11-28)
+## [7.0.1](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@7.0.0...@yproximite/ckeditor5-dev-env@7.0.1) (2017-11-28)
 
 ### Bug fixes
 
@@ -361,7 +361,7 @@ Internal changes only (updated dependencies, documentation, etc.).
 * Links to releases will be generated correctly. Closes [#310](https://github.com/ckeditor/ckeditor5-dev/issues/310). ([5f98f9e](https://github.com/ckeditor/ckeditor5-dev/commit/5f98f9e))
 
 
-## [7.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@6.0.0...@ckeditor/ckeditor5-dev-env@7.0.0) (2017-11-13)
+## [7.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@6.0.0...@yproximite/ckeditor5-dev-env@7.0.0) (2017-11-13)
 
 ### Other changes
 
@@ -379,7 +379,7 @@ Internal changes only (updated dependencies, documentation, etc.).
 * Gulp tasks were removed. New npm scripts were introduced.
 
 
-## [6.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@5.1.13...@ckeditor/ckeditor5-dev-env@6.0.0) (2017-11-10)
+## [6.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@5.1.13...@yproximite/ckeditor5-dev-env@6.0.0) (2017-11-10)
 
 ### Features
 
@@ -396,7 +396,7 @@ Internal changes only (updated dependencies, documentation, etc.).
 * `internal` bump will increase the release version if the current version is specified as a release (`v1.0.0-alpha.1` becomes `v1.0.0-alpha.2`).
 
 
-## [5.1.13](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@5.1.12...@ckeditor/ckeditor5-dev-env@5.1.13) (2017-10-20)
+## [5.1.13](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@5.1.12...@yproximite/ckeditor5-dev-env@5.1.13) (2017-10-20)
 
 ### Bug fixes
 
@@ -416,14 +416,14 @@ Internal changes only (updated dependencies, documentation, etc.).
 * Changed order of headers in generated changelog. Closes [#293](https://github.com/ckeditor/ckeditor5-dev/issues/293). ([ad660b4](https://github.com/ckeditor/ckeditor5-dev/commit/ad660b4))
 
 
-## [5.1.12](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@5.1.10...@ckeditor/ckeditor5-dev-env@5.1.12) (2017-10-01)
+## [5.1.12](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@5.1.10...@yproximite/ckeditor5-dev-env@5.1.12) (2017-10-01)
 
 ### Bug fixes
 
 * If a part of a commit message matches "organization/repository#id" it will be replaced with a link to an issue in that specific repository. Also, scoped package names won't be replaced with links to user profiles. Closes [#269](https://github.com/ckeditor/ckeditor5-dev/issues/269). ([e9bf324](https://github.com/ckeditor/ckeditor5-dev/commit/e9bf324))
 
 
-## [5.1.10](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@5.1.8...@ckeditor/ckeditor5-dev-env@5.1.10) (2017-09-07)
+## [5.1.10](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@5.1.8...@yproximite/ckeditor5-dev-env@5.1.10) (2017-09-07)
 
 ### Bug fixes
 
@@ -435,21 +435,21 @@ Internal changes only (updated dependencies, documentation, etc.).
   * Merge commit which wasn't a pull request was ignored. Now it will be handled.
 
 
-## [5.1.8](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@5.1.7...@ckeditor/ckeditor5-dev-env@5.1.8) (2017-09-01)
+## [5.1.8](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@5.1.7...@yproximite/ckeditor5-dev-env@5.1.8) (2017-09-01)
 
 ### Bug fixes
 
 * Add better network error handling for downloading and uploading translations. Closes [#265](https://github.com/ckeditor/ckeditor5-dev/issues/265). ([c12fb15](https://github.com/ckeditor/ckeditor5-dev/commit/c12fb15))
 
 
-## [5.1.7](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@5.1.5...@ckeditor/ckeditor5-dev-env@5.1.7) (2017-08-23)
+## [5.1.7](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@5.1.5...@yproximite/ckeditor5-dev-env@5.1.7) (2017-08-23)
 
 ### Bug fixes
 
 * Fixed Transifex URL scheme. Closes [#249](https://github.com/ckeditor/ckeditor5-dev/issues/249). ([3276048](https://github.com/ckeditor/ckeditor5-dev/commit/3276048))
 
 
-## [5.1.5](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@5.1.4...@ckeditor/ckeditor5-dev-env@5.1.5) (2017-08-16)
+## [5.1.5](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@5.1.4...@yproximite/ckeditor5-dev-env@5.1.5) (2017-08-16)
 
 ### Bug fixes
 
@@ -457,18 +457,18 @@ Internal changes only (updated dependencies, documentation, etc.).
 * `cli.confirmRelease()` shouldn't reject the promise if the user did not confirm the process. Closes [#245](https://github.com/ckeditor/ckeditor5-dev/issues/245). ([d57f9c8](https://github.com/ckeditor/ckeditor5-dev/commit/d57f9c8))
 
 
-## [5.1.4](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@5.1.2...@ckeditor/ckeditor5-dev-env@5.1.4) (2017-08-09)
+## [5.1.4](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@5.1.2...@yproximite/ckeditor5-dev-env@5.1.4) (2017-08-09)
 
 ### Other changes
 
 * The release process will now be error-proof by performing validation before starting taking any actions. Closes [#99](https://github.com/ckeditor/ckeditor5-dev/issues/99). Closes [#147](https://github.com/ckeditor/ckeditor5-dev/issues/147).  Closes: [#149](https://github.com/ckeditor/ckeditor5-dev/issues/149). Closes: [#151](https://github.com/ckeditor/ckeditor5-dev/issues/151). ([330a8dc](https://github.com/ckeditor/ckeditor5-dev/commit/330a8dc))
 
 
-## [5.1.2](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@5.1.0...@ckeditor/ckeditor5-dev-env@5.1.2) (2017-06-14)
+## [5.1.2](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@5.1.0...@yproximite/ckeditor5-dev-env@5.1.2) (2017-06-14)
 
 Internal changes only (updated dependencies, documentation, etc.).
 
-## [5.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@5.0.1...@ckeditor/ckeditor5-dev-env@5.1.0) (2017-05-24)
+## [5.1.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@5.0.1...@yproximite/ckeditor5-dev-env@5.1.0) (2017-05-24)
 
 ### Bug fixes
 
@@ -487,7 +487,7 @@ Internal changes only (updated dependencies, documentation, etc.).
   It allows using the `preversion` and `postversion` npm hooks.
 
 
-## [5.0.1](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@5.0.0...@ckeditor/ckeditor5-dev-env@5.0.1) (2017-05-16)
+## [5.0.1](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@5.0.0...@yproximite/ckeditor5-dev-env@5.0.1) (2017-05-16)
 
 ### Bug fixes
 
@@ -498,7 +498,7 @@ Internal changes only (updated dependencies, documentation, etc.).
 * Complex, multiline commits will be parsed correctly. Closes [#146](https://github.com/ckeditor/ckeditor5-dev/issues/146). ([25c2d71](https://github.com/ckeditor/ckeditor5-dev/commit/25c2d71))
 
 
-## [5.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@ckeditor/ckeditor5-dev-env@4.4.3...@ckeditor/ckeditor5-dev-env@5.0.0) (2017-04-27)
+## [5.0.0](https://github.com/ckeditor/ckeditor5-dev/compare/@yproximite/ckeditor5-dev-env@4.4.3...@yproximite/ckeditor5-dev-env@5.0.0) (2017-04-27)
 
 ### Bug fixes
 

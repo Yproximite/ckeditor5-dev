@@ -9,7 +9,7 @@ const fs = require( 'fs-extra' );
 const tmp = require( 'tmp' );
 const glob = require( 'fast-glob' );
 
-const { tools } = require( '@ckeditor/ckeditor5-dev-utils' );
+const { tools } = require( '@yproximite/ckeditor5-dev-utils' );
 
 module.exports = {
 	build

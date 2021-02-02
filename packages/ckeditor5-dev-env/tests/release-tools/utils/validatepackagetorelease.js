@@ -30,7 +30,7 @@ describe( 'dev-env/release-tools/utils', () => {
 				warnOnUnregistered: false
 			} );
 
-			mockery.registerMock( '@ckeditor/ckeditor5-dev-utils', stubs.devUtils );
+			mockery.registerMock( '@yproximite/ckeditor5-dev-utils', stubs.devUtils );
 
 			validatePackageToRelease = require( '../../../lib/release-tools/utils/validatepackagetorelease' );
 		} );

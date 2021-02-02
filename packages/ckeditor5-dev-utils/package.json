@@ -1,6 +1,10 @@
 {
-  "name": "@ckeditor/ckeditor5-dev-utils",
+  "name": "@yproximite/ckeditor5-dev-utils",
   "version": "24.1.0",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
+  },
   "description": "Utils for CKEditor 5 development tools packages.",
   "keywords": [],
   "main": "lib/index.js",

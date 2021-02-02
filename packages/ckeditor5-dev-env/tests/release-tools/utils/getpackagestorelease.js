@@ -32,7 +32,7 @@ describe( 'dev-env/release-tools/utils', () => {
 			};
 
 			getPackagesToRelease = proxyquire( '../../../lib/release-tools/utils/getpackagestorelease', {
-				'@ckeditor/ckeditor5-dev-utils': {
+				'@yproximite/ckeditor5-dev-utils': {
 					logger() {
 						return stubs.logger;
 					}

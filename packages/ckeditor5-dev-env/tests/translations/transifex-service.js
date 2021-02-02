@@ -36,7 +36,7 @@ describe( 'transifex-service', () => {
 			}
 		};
 
-		mockery.registerMock( '@ckeditor/ckeditor5-dev-utils', {
+		mockery.registerMock( '@yproximite/ckeditor5-dev-utils', {
 			logger: () => stubs.logger,
 			translations: {
 				retryAsyncFunction: x => x()

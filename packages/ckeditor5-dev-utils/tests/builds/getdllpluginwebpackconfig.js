@@ -59,7 +59,7 @@ describe( 'builds/getDllPluginWebpackConfig()', () => {
 	} );
 
 	it( 'returns the webpack configuration in production mode by default', () => {
-		stubs.tools.readPackageName.returns( '@ckeditor/ckeditor5-dev' );
+		stubs.tools.readPackageName.returns( '@yproximite/ckeditor5-dev' );
 
 		const webpackConfig = getDllPluginWebpackConfig( {
 			packagePath: '/package/path',
@@ -107,7 +107,7 @@ describe( 'builds/getDllPluginWebpackConfig()', () => {
 	} );
 
 	it( 'does not minify the destination file when in dev mode', () => {
-		stubs.tools.readPackageName.returns( '@ckeditor/ckeditor5-dev' );
+		stubs.tools.readPackageName.returns( '@yproximite/ckeditor5-dev' );
 
 		const webpackConfig = getDllPluginWebpackConfig( {
 			packagePath: '/package/path',

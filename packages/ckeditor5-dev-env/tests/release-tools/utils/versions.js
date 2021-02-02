@@ -8,7 +8,7 @@
 const expect = require( 'chai' ).expect;
 const sinon = require( 'sinon' );
 const proxyquire = require( 'proxyquire' );
-const { tools } = require( '@ckeditor/ckeditor5-dev-utils' );
+const { tools } = require( '@yproximite/ckeditor5-dev-utils' );
 
 describe( 'dev-env/release-tools/utils', () => {
 	let version, sandbox, changelogStub, getPackageJsonStub;
@@ -21,7 +21,7 @@ describe( 'dev-env/release-tools/utils', () => {
 			getPackageJsonStub = sandbox.stub();
 
 			version = proxyquire( '../../../lib/release-tools/utils/versions', {
-				'@ckeditor/ckeditor5-dev-utils': {
+				'@yproximite/ckeditor5-dev-utils': {
 					tools
 				},
 				'./getpackagejson': getPackageJsonStub,

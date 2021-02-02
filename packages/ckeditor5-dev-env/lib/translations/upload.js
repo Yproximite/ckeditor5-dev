@@ -7,7 +7,7 @@
 
 const fs = require( 'fs' );
 const path = require( 'path' );
-const logger = require( '@ckeditor/ckeditor5-dev-utils' ).logger();
+const logger = require( '@yproximite/ckeditor5-dev-utils' ).logger();
 const transifexService = require( './transifex-service' );
 const Table = require( 'cli-table' );
 const chalk = require( 'chalk' );

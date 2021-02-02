@@ -6,7 +6,7 @@
 'use strict';
 
 const chalk = require( 'chalk' );
-const { logger } = require( '@ckeditor/ckeditor5-dev-utils' );
+const { logger } = require( '@yproximite/ckeditor5-dev-utils' );
 const utils = require( './transformcommitutils' );
 const { INDENT_SIZE, COMMIT_INDENT_SIZE } = require( './cli' );
 

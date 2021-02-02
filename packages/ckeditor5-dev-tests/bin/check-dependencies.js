@@ -13,7 +13,7 @@ const glob = require( 'glob' );
 const depCheck = require( 'depcheck' );
 const chalk = require( 'chalk' );
 const minimist = require( 'minimist' );
-const { tools } = require( '@ckeditor/ckeditor5-dev-utils' );
+const { tools } = require( '@yproximite/ckeditor5-dev-utils' );
 
 const { packagePaths, options } = parseArguments( process.argv.slice( 2 ) );
 

@@ -7,7 +7,7 @@
 
 const fs = require( 'fs' );
 const path = require( 'path' );
-const { tools, logger } = require( '@ckeditor/ckeditor5-dev-utils' );
+const { tools, logger } = require( '@yproximite/ckeditor5-dev-utils' );
 const compareFunc = require( 'compare-func' );
 const chalk = require( 'chalk' );
 const semver = require( 'semver' );

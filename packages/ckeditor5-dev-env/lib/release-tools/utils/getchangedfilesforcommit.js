@@ -5,7 +5,7 @@
 
 'use strict';
 
-const { tools } = require( '@ckeditor/ckeditor5-dev-utils' );
+const { tools } = require( '@yproximite/ckeditor5-dev-utils' );
 
 /**
  * Returns an array with paths to changed files for given commit.

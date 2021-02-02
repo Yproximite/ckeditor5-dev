@@ -25,7 +25,7 @@ describe( 'dev-env/release-tools/utils', () => {
 		};
 
 		displaySkippedPackages = proxyquire( '../../../lib/release-tools/utils/displayskippedpackages', {
-			'@ckeditor/ckeditor5-dev-utils': {
+			'@yproximite/ckeditor5-dev-utils': {
 				logger() {
 					return stubs.logger;
 				}

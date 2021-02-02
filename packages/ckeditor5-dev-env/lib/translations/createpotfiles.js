@@ -8,9 +8,9 @@
 const path = require( 'path' );
 const fs = require( 'fs-extra' );
 const del = require( 'del' );
-const defaultLogger = require( '@ckeditor/ckeditor5-dev-utils' ).logger();
+const defaultLogger = require( '@yproximite/ckeditor5-dev-utils' ).logger();
 
-const { findMessages } = require( '@ckeditor/ckeditor5-dev-utils' ).translations;
+const { findMessages } = require( '@yproximite/ckeditor5-dev-utils' ).translations;
 
 const langContextSuffix = path.join( 'lang', 'contexts.json' );
 const corePackageName = 'ckeditor5-core';

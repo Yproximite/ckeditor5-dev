@@ -6,7 +6,7 @@
 'use strict';
 
 const { Readable } = require( 'stream' );
-const { stream } = require( '@ckeditor/ckeditor5-dev-utils' );
+const { stream } = require( '@yproximite/ckeditor5-dev-utils' );
 const conventionalChangelogWriter = require( 'conventional-changelog-writer' );
 
 const UPDATED_TRANSLATION_COMMIT = '* Updated translations.';

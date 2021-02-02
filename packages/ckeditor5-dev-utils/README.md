@@ -22,7 +22,7 @@ There are three levels of verbosity:
 Usage:
 
 ```js
-const logger = require( '@ckeditor/ckeditor5-dev-utils' ).logger;
+const logger = require( '@yproximite/ckeditor5-dev-utils' ).logger;
 
 // All messages will be displayed.
 const infoLog = logger( 'info' );

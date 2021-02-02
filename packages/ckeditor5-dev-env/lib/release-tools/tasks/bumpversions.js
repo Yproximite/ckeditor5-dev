@@ -7,7 +7,7 @@
 
 const path = require( 'path' );
 const chalk = require( 'chalk' );
-const { tools, logger } = require( '@ckeditor/ckeditor5-dev-utils' );
+const { tools, logger } = require( '@yproximite/ckeditor5-dev-utils' );
 const cli = require( '../utils/cli' );
 const versions = require( '../utils/versions' );
 const changelog = require( '../utils/changelog' );
