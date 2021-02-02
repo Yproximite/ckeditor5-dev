@@ -1,6 +1,6 @@
 {
   "name": "@ckeditor/jsdoc-plugins",
-  "version": "24.1.0",
+  "version": "99.5.0",
   "publishConfig": {
     "access": "public",
     "registry": "https://npm.pkg.github.com/"

@@ -1,6 +1,6 @@
 {
   "name": "@yproximite/ckeditor5-dev-utils",
-  "version": "24.1.0",
+  "version": "99.5.0",
   "publishConfig": {
     "access": "public",
     "registry": "https://npm.pkg.github.com/"
